@@ -1,0 +1,40 @@
+<section class="catalog-section">
+            <h2 class="catalog-section__title">Catalog</h2>
+            <a href="#" class="catalog-section__link">See all</a>
+            <a href="#">
+                {% for item in cards %}
+                <article class="catalog-item">
+                    {% include 'item-card.tvig'%}
+                    <img class="catalog-item__img" src="m.png" alt="Echo of Bones">
+                    <p class="catalog-item__price">$1990</p>
+                    <h3 class="catalog-item__header">Echo of Bones</h3>
+                </article>
+                {% endfor %}
+</a>
+ <a href="#">
+                <article class="catalog-item">
+                    <img class="catalog-item__img" src="n.png" alt="Nyx the Watcher">
+                    <p class="catalog-item__price" > $299.99</p>
+                    <h3 class="catalog-item__header" >Nyx the Watcher</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article class="catalog-item" >
+                    <img class="catalog-item__img" src="b.png" alt="Blade of Silence">
+                    <p class="catalog-item__price" >$20</p>
+                    <h3 class="catalog-item__header" >Blade of Silence</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article class="catalog-item" >
+                    <img class="catalog-item__img" src="d.png" alt="Data Core: Alpha">
+                    <p class="catalog-item__price" >$1.000.000</p>
+                    <h3 class="catalog-item__header" >Data Core: Alpha</h3>
+                </article>
+            </a>
+            <a href="#">
+                <article class="catalog-item" >
+                    <img class="catalog-item__img" src="p.png" alt="Phantom Console">
+                    <p class="catalog-item__price" >$199.5</p>
+                    <h3 class="catalog-item__header" >Phantom Console</h3>
+                </article>

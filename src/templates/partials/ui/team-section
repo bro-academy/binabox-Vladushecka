@@ -1,0 +1,80 @@
+  <section class="team">
+            <h2 class="section-title team__title">Our team</h2>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Nova Riven">
+                <h3 class="person__name">Nova Riven</h3>
+                <p class="person__position">Creative Architect</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Facebook</a></li>
+                    <li class="social-list__item" ><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                    <li class="social-list__item" ><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Echo Zero">
+                <h3 class="person__name">Echo Zero</h3>
+                <p class="person__position">Tech Whisperer</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                    <li class="social-list__item"><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                    <li class="social-list__item"><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Kairo Null">
+                <h3 class="person__name">Kairo Null</h3>
+                <p class="person__position">Lore Engineer</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                    <li class="social-list__item"><a href="#">Facebook</a></li>
+                    <li class="social-list__item"><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Dr. Wex Omega">
+                <h3 class="person__name" >Dr. Wex Omega</h3>
+                <p class="person__position">Visual Disruptor</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                    <li class="social-list__item"><a href="#">Facebook</a></li>
+                    <li class="social-list__item"><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                    <li class="social-list__item"><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Synthya Void">
+                <h3 class="person__name" >Synthya Void</h3>
+                <p class="person__position">UX Seer</p>
+                <ul class="person__social-list social-list" >
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Mirlo Drift">
+                <h3 class="person__name" >Mirlo Drift</h3>
+                <p class="person__position" >Community Catalyst</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                    <li class="social-list__item"><a href="#">Facebook</a></li>
+                    <li class="social-list__item"><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                    <li class="social-list__item"><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+            <article class="person">
+                <img class="person__avatar" src="k.png" alt="Axon Rune">
+                <h3 class="person__name" >Axon Rune</h3>
+                <p class="person__position" >Security Ghost</p>
+                <ul class="person__social-list social-list">
+                    <li class="social-list__item"><a href="#">Twitter</a></li>
+                    <li class="social-list__item"><a href="#">Facebook</a></li>
+                    <li class="social-list__item"><a href="#">Telegram</a></li>
+                    <li class="social-list__item"><a href="#">in</a></li>
+                    <li class="social-list__item"><a href="#">Instagram</a></li>
+                </ul>
+            </article>
+        </section>

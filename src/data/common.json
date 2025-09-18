@@ -1,5 +1,12 @@
-{
-  "common": {
-    "siteTitle": "Bro Starter"
+
+  {"nav":[
+  {
+    "url": "index.html",
+    "text": "Home"
+  },
+  {
+    "url": "blog",
+    "text":"Blog"
   }
-}
+]
+  }

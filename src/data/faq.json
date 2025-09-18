@@ -1,0 +1,23 @@
+{
+  "faq": {
+    "title": "FAQs",
+    "items": [
+      {
+        "question": "What are the NFTs?",
+        "answer": "NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be music, code, memes, memories – anything that can be owned and verified. No copies. No takes. Just you and the chain."
+      },
+      {
+        "question": "How do I get NFTs?",
+        "answer": "You can get NFTs by purchasing them on marketplaces, joining drops, or participating in community events."
+      },
+      {
+        "question": "How can we buy your NFTs?",
+        "answer": "Our NFTs are available on selected marketplaces. Follow announcements to catch drops and sales."
+      },
+      {
+        "question": "Who are the team behind the project?",
+        "answer": "We are a collective of artists, developers, and visionaries building the future of digital ownership."
+      }
+    ]
+  }
+}

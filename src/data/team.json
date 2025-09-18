@@ -1,0 +1,84 @@
+{
+  "team": {
+    "title": "Our team",
+    "members": [
+      {
+        "name": "Nova Riven",
+        "position": "Creative Architect",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Facebook", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"},
+          {"name": "Instagram", "url": "#"}
+        ]
+      },
+      {
+        "name": "Echo Zero",
+        "position": "Tech Whisperer",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"},
+          {"name": "Instagram", "url": "#"}
+        ]
+      },
+      {
+        "name": "Kairo Null",
+        "position": "Lore Engineer",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"},
+          {"name": "Facebook", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"}
+        ]
+      },
+      {
+        "name": "Dr. Wex Omega",
+        "position": "Visual Disruptor",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"},
+          {"name": "Facebook", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"},
+          {"name": "Instagram", "url": "#"}
+        ]
+      },
+      {
+        "name": "Synthya Void",
+        "position": "UX Seer",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"}
+        ]
+      },
+      {
+        "name": "Mirlo Drift",
+        "position": "Community Catalyst",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"},
+          {"name": "Facebook", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"},
+          {"name": "Instagram", "url": "#"}
+        ]
+      },
+      {
+        "name": "Axon Rune",
+        "position": "Security Ghost",
+        "avatar": "k.png",
+        "socials": [
+          {"name": "Twitter", "url": "#"},
+          {"name": "Facebook", "url": "#"},
+          {"name": "Telegram", "url": "#"},
+          {"name": "LinkedIn", "url": "#"},
+          {"name": "Instagram", "url": "#"}
+        ]
+      }
+    ]
+  }
+}
