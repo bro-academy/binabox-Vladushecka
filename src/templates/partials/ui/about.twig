@@ -1,0 +1,15 @@
+<section class="about">
+    <h2 class="about__title">{{ about.title }}</h2>
+    <p class="about__description">{{ about.description }}</p>
+
+    <ol class="about__list counted-list">
+        {% for item in about.items %}
+            <li class="counted-list__item">
+                <h3 class="counted-list__title">{{ item.title }}</h3>
+                <p class="counted-list__text">{{ item.text }}</p>
+            </li>
+        {% endfor %}
+    </ol>
+
+    <button class="button about__button button--large">{{ about.button }}</button>
+</section>

@@ -1,0 +1,29 @@
+<footer>
+    <section class="binabox">
+        <h2>{{ footer.about.title }}</h2>
+        <a class="binabox__link" href="{{ footer.about.link.url }}">{{ footer.about.link.text }}</a>
+        <p class="binabox__description">{{ footer.about.description }}</p>
+    </section>
+
+    <nav>
+        <section class="navigation">
+            <h3 class="navigation__title">{{ footer.navigation.title }}</h3>
+            <ul class="navigation__list list-item">
+                {% for link in footer.navigation.links %}
+                    <li class="list-item__link">
+                        <a class="link" href="{{ link.url }}">{{ link.text }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </section>
+    </nav>
+
+    <p>{{ footer.copyright }}</p>
+
+    <section class="networks">
+        <h3 class="networks__title">{{ footer.networks.title }}</h3>
+        {% for link in footer.networks.links %}
+            <a class="networks__link" href="{{ link.url }}">{{ link.text }}</a>
+        {% endfor %}
+    </section>
+</footer>
