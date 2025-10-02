@@ -1,0 +1,18 @@
+<section class="team">
+    <h2 class="section-title team__title">{{ team.title }}</h2>
+
+    {% for member in team.members %}
+        <article class="person">
+            <img class="person__avatar" src="{{ member.avatar }}" alt="{{ member.name }}">
+            <h3 class="person__name">{{ member.name }}</h3>
+            <p class="person__position">{{ member.position }}</p>
+            <ul class="person__social-list social-list">
+                {% for social in member.socials %}
+                    <li class="social-list__item">
+                        <a href="{{ social.url }}">{{ social.name }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </article>
+    {% endfor %}
+</section>

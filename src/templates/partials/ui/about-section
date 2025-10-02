@@ -1,0 +1,29 @@
+ <section class="about">
+            <h2 class="about__title">About us</h2>
+            <p class="about__description">We craft digital artifacts for those who live between worlds.
+                Our space is bulit for creators, collectors, and the quietly obsessed.</p>
+            <ol class="about__list counted-list">
+                <li class="counted-list__item">
+                    <h3 class="counted-list__title">Crystal clear Quality</h3>
+                    <p class="counted-list__text">Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean.
+                    </p>
+                </li>
+                <li  class="counted-list__item" >
+                    <h3 class="counted-list__title" >Curated Depth</h3>
+                    <p class="counted-list__text" >Not just big - meaningful.
+                        Each piece tells a story, every collection builds a universe.</p>
+                </li>
+                <li class="counted-list__item" >
+                    <h3 class="counted-list__title" >Rare Source Access</h3>
+                    <p class="counted-list__text" >Early drops. Backstage peeks.
+                        Our members don't scroll - they unlock.</p>
+                </li>
+                <li class="counted-list__item" >
+                    <h3 class="counted-list__title" >Living Network</h3>
+                    <p class="counted-list__text" >Our community isn't a list -it's a force.
+                        Artists, rebels, dreamers.</p>
+                </li>
+            </ol>
+            <button class="button about__button button--large">Read more</button>
+        </section>
+      

@@ -1,0 +1,12 @@
+
+  {"nav":[
+  {
+    "url": "index.html",
+    "text": "Home"
+  },
+  {
+    "url": "blog",
+    "text":"Blog"
+  }
+]
+  }

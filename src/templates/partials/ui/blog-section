@@ -1,0 +1,47 @@
+ <section class="blog-section">
+            <h2 class="blog-section__title">Our blog</h2>
+            <article class="blog-card">
+                <img src="nn.png" alt="NFT">
+                <time class="blog-card__time" datetime="2022-12-04">04. Dec 2022</time>
+                <h3 class="blog-card__author">Neural Drift</h3>
+                <p class="blog-card__description">I woke up inside the void. My body stayed in the past - only thoughts
+                    were allowed throug...</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <article class="blog-card" >
+                <img src="pp.png" alt="RARE">
+                <time class="blog-card__time" datetime="2022-12-08">08. Dec 2022</time>
+                <h3 class="blog-card__author" >Primal.exe</h3>
+                <p class="blog-card__description" >We tried to resurrect the past. What we got was rage compressed into an algorithm.</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <article class="blog-card" >
+                <img src="w.png" alt="NFT">
+                <time class="blog-card__time" datetime="2022-06-20">20. Jun 2022</time>
+                <h3 class="blog-card__author" >White Protocol</h3>
+                <p class="blog-card__description" >At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <article class="blog-card">
+                <img src="dd.png" alt="DROP">
+                <time class="blog-card__time" datetime="2022-12-06">06. Dec 2022</time>
+                <h3 class="blog-card__author" >Deadframe</h3>
+                <p class="blog-card__description" >He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <article  class="blog-card" >
+                <img src="g.png" alt="NFT">
+                <time class="blog-card__time" datetime="2022-12-07">07. Dec 2022</time>
+                <h3 class="blog-card__author" >Glitch Panther</h3>
+                <p class="blog-card__description" >Cats always knew more than they showed. Especially the ones that vanish into code.</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <article class="blog-card" >
+                <img src="r.png" alt="ARTIFACT">
+                <time class="blog-card__time" datetime="2022-12-09">09. Dec 2022</time>
+                <h3 class="blog-card__author" >Retrocore</h3>
+                <p class="blog-card__description" >This console comes from a game no one remembers how to play. But it's still powered on.</p>
+                <a class="blog-card__button" href="#">Read more</a>
+            </article>
+            <a href="#">Read more</a>
+        </section>

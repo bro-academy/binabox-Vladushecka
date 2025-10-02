@@ -1,13 +1,6 @@
-body {
-    background-color: #0d0d15;
-    font-family: 'Poppins', Arial, sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;
-    font-weight: 400;
-    color: #fff;
-}
-
+@use '../base/_global';
+@use '..components/_button.scss';
+@use '..components/_faq.scss';
 .list-item__link {
     font-weight: 600;
     font-size: 16px;

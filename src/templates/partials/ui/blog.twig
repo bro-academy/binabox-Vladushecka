@@ -1,0 +1,21 @@
+{% extends 'layouts/base.twig' %}
+
+{% block title %}Our Blog{% endblock %}
+
+{% block content %}
+<section class="blog-section">
+    <h2 class="blog-section__title">Our blog</h2>
+
+    {% for post in blog %}
+    <article class="blog-card">
+        <img src="{{ post.img }}" alt="{{ post.alt }}">
+        <time class="blog-card__time" datetime="{{ post.date }}">
+            {{ post.dateText }}
+        </time>
+        <h3 class="blog-card__author">{{ post.author }}</h3>
+        <p class="blog-card__description">{{ post.description }}</p>
+        <a class="blog-card__button" href="#">Read more</a>
+    </article>
+    {% endfor %}
+</section>
+{% endblock %}

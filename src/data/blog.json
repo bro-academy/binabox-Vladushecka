@@ -1,0 +1,52 @@
+{
+  "blog": [
+    {
+      "img": "nn.png",
+      "alt": "NFT",
+      "date": "2022-12-04",
+      "dateText": "04. Dec 2022",
+      "author": "Neural Drift",
+      "description": "I woke up inside the void. My body stayed in the past – only thoughts were allowed through..."
+    },
+    {
+      "img": "pp.png",
+      "alt": "RARE",
+      "date": "2022-12-08",
+      "dateText": "08. Dec 2022",
+      "author": "Primal.exe",
+      "description": "We tried to resurrect the past. What we got was rage compressed into an algorithm."
+    },
+    {
+      "img": "w.png",
+      "alt": "NFT",
+      "date": "2022-06-20",
+      "dateText": "20. Jun 2022",
+      "author": "White Protocol",
+      "description": "At first, it was just a signal – clean, white, hypnotic. We didn’t know it was alive."
+    },
+    {
+      "img": "dd.png",
+      "alt": "DROP",
+      "date": "2022-12-06",
+      "dateText": "06. Dec 2022",
+      "author": "Deadframe",
+      "description": "He just stood there, waiting. Not for a person – for a signal. Like the memory of the network."
+    },
+    {
+      "img": "ss.png",
+      "alt": "NFT",
+      "date": "2022-12-07",
+      "dateText": "07. Dec 2022",
+      "author": "Glitch Panther",
+      "description": "Cats always knew more than they showed. Especially the ones that vanish into code."
+    },
+    {
+      "img": "r.png",
+      "alt": "ARTIFACT",
+      "date": "2022-12-09",
+      "dateText": "09. Dec 2022",
+      "author": "Retrocore",
+      "description": "This console comes from a game no one remembers how to play. But it's still powered on."
+    }
+  ]
+}

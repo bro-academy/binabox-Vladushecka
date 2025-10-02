@@ -1,0 +1,15 @@
+<section class="faq">
+    <h2 class="faq__title">{{ faq.title }}</h2>
+    <div>
+        {% for item in faq.items %}
+            <details class="faq__phrase faq-info">
+                <summary class="faq-info__title">
+                    <h3>{{ item.question }}</h3>
+                </summary>
+                {% if item.answer is defined %}
+                    <p class="faq-info__text">{{ item.answer }}</p>
+                {% endif %}
+            </details>
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,26 @@
+
+{
+  "path":"index.html",
+  "title":"Binabox homepage",
+ "catalog": [
+  {
+    "url": "cataloge/index.html",
+    "text": "Home"
+  }
+ ],
+ "nav":[
+  {
+    "url": "index.html",
+    "text": "Home"
+  },
+  {
+    "url":"/blog/",
+    "text":"Blog"
+  }
+ ]
+}
+
+
+
+
+
