@@ -1,2 +1,6 @@
-@import "./_hero.scss";
+@import "./_about.scss";
+@import "./_binabox.scss";
+@import "./_blog.scss";
+@import "./_cataloge.scss";
 @import "./_main-banner.scss";
+@import "./_person.scss";

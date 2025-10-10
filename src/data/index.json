@@ -1,23 +1,51 @@
 
 {
-  "path":"index.html",
-  "title":"Binabox homepage",
- "catalog": [
-  {
-    "url": "cataloge/index.html",
-    "text": "Home"
-  }
- ],
- "nav":[
-  {
-    "url": "index.html",
-    "text": "Home"
+ "index":
+ {
+  "url": "index.html",
+  "binabox":{
+    "heading":{
+"part_1":"WITH",
+"part_2":"BINABOX",
+"part_3":"EXPLORE NFT COLLECTION"
+    },
+    "text":"We are the best way to check the rarity of NFT collection",
+    "defenition":{},
+    "connect_button":"",
+    "whitelist_button":"Whitelist now"
   },
-  {
-    "url":"/blog/",
-    "text":"Blog"
-  }
- ]
+ "catalog":{
+  "title":"Catalog",
+  "button":"See all",
+  "list":[
+    {
+      "img":"url",
+      "name":"Echo of Bones",
+      "price":"$1990"
+    },
+      {
+      "img":"url",
+      "name":"Nyx the Watcher",
+      "price":"$299.99"
+    },
+      {
+      "img":"url",
+      "name":"Blade of Silence",
+      "price":"$20"
+    },
+      {
+      "img":"url",
+      "name":"Data Core: Alpha",
+      "price":"$1.000.000"
+    },
+      {
+      "img":"url",
+      "name":"Phantom Console",
+      "price":"$199.5"
+    }
+  ]
+ }
+}
 }
 
 

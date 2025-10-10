@@ -1,12 +1,35 @@
-
-  {"nav":[
+ {
+     "header":
   {
-    "url": "index.html",
-    "text": "Home"
-  },
-  {
-    "url": "blog",
-    "text":"Blog"
+    "default_button":"Connect",
+    "primary_button":
+    {
+      "text":"Discord",
+      "link": "discord.com"
+    },
+    "nav":[
+      {
+      "text":"Home",
+      "link":"index.html"
+    },
+        {
+      "text":"About",
+      "link":"index.html"
+    },
+        {
+      "text":"Collection",
+      "link":"index.html"
+    },
+        {
+      "text":"Fags",
+      "link":"index.html"
+    },
+        {
+      "text":"Pages",
+      "link":"index.html"
+    }
+  ]
+    
   }
-]
+
   }
