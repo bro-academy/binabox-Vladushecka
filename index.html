@@ -45,92 +45,115 @@
             </dl>
             <div class="banner__link-wrap">
                 <a class="banner__link button" href="home">Connect walet</a>
-                <a class="banner__link button" href="home">Whitelist now</a>
+                <a class="banner__link button button--primary" href="home">Whitelist now</a>
             </diV>
         </section>
-        <section class="cataloge-section">
-            <h2 class="cataloge-section__titel">Cataloge</h2>
-            <a href="#" class="cataloge-section__link button">See all</a>
-            <a href="#">
-                <article class="cataloge-item">
-                    <img class="cataloge-item__img" src="m.png" alt="Echo of Bones">
-                    <p class="cataloge-item__price">$1990</p>
-                    <h3 class="cataloge-item__header">Echo of Bones</h3>
+        <section class="catalog-section">
+            <h2 class="catalog-section__titel">Cataloge</h2>
+            <a href="#" class="catalog-section__link button">See all</a> 
+            <button class="catalog-section__button"></button>
+            <button class="catalog-section__button"></button>
+            <ul class="catalog-section__list catalog-list">
+                <li class="catalog-list__item"> 
+                    <a class="catalog-list__link" href="#">
+                <article>
+                    <label class="catalog-list__label" for="new">New</label>
+                    <img class="catalog-list__img" id="new" src="m.png" alt="Echo of Bones">
+                    <p class="catalog-list__price">$1990</p>
+                    <h3 class="catalog-list__header">Echo of Bones</h3>
                 </article>
             </a>
-            <a href="#">
-                <article class="cataloge-item">
-                    <img class="cataloge-item__img" src="n.png" alt="Nyx the Watcher">
-                    <p class="cataloge-item__price" > $299.99</p>
-                    <h3 class="cataloge-item__header" >Nyx the Watcher</h3>
+                </li>
+                <li class="catalog-list__item">
+                   <a class="catalog-list__link" href="#">
+                <article>
+                    <label class="catalog-list__label" for="new">New</label>
+                    <img class="catalog-list__img" id="new" src="n.png" alt="Nyx the Watcher">
+                    <p class="catalog-list__price" > $299.99</p>
+                    <h3 class="catalog-list__header" >Nyx the Watcher</h3>
                 </article>
             </a>
-            <a href="#">
-                <article class="cataloge-item" >
-                    <img class="cataloge-item__img" src="b.png" alt="Blade of Silence">
-                    <p class="cataloge-item__price" >$20</p>
-                    <h3 class="cataloge-item__header" >Blade of Silence</h3>
+                </li>
+                <li class="catalog-list__item">
+                   <a class="catalog-list__link" href="#">
+                <article>
+                    <label class="catalog-list__label label--primary" for="sold">Sold out</label>
+                    <img class="catalog-list__img" id="sold" src="b.png" alt="Blade of Silence">
+                    <p class="catalog-list__price" >$20</p>
+                    <h3 class="catalog-list__header" >Blade of Silence</h3>
                 </article>
             </a>
-            <a href="#">
-                <article class="cataloge-item" >
-                    <img class="cataloge-item__img" src="d.png" alt="Data Core: Alpha">
-                    <p class="cataloge-item__price" >$1.000.000</p>
-                    <h3 class="cataloge-item__header" >Data Core: Alpha</h3>
+                </li>
+                <li class="catalog-list__item">
+                   <a class="catalog-list__link" href="#">
+                <article>
+                    <img class="catalog-list__img" src="d.png" alt="Data Core: Alpha">
+                    <p class="catalog-list__price" >$1.000.000</p>
+                    <h3 class="catalog-list__header" >Data Core: Alpha</h3>
                 </article>
             </a>
-            <a href="#">
-                <article class="cataloge-item" >
-                    <img class="cataloge-item__img" src="p.png" alt="Phantom Console">
-                    <p class="cataloge-item__price" >$199.5</p>
-                    <h3 class="cataloge-item__header" >Phantom Console</h3>
+                </li>
+                <li class="catalog-list__item">
+                  <a class="catalog-list__link" href="#">
+                <article>
+                    <img class="catalog-list__img" src="p.png" alt="Phantom Console">
+                    <p class="catalog-list__price" >$199.5</p>
+                    <h3 class="catalog-list__header" >Phantom Console</h3>
                 </article>
             </a>
+                </li>
+            </ul>
         </section>
         <section class="blog-section">
             <h2 class="blog-section__titel">Our blog</h2>
             <article class="blog-card">
-                <img class="blog-card__img" src="nn.png" alt="NFT">
+                <label class="blog-card__label" for="nft">NFT</label>
+                <img class="blog-card__img" id="nft" src="nn.png" alt="NFT">
                 <time class="blog-card__time" datetime="2022-12-04">04. Dec 2022</time>
                 <h3 class="blog-card__autor">Neural Drift</h3>
                 <p class="blog-card__description">I woke up inside the void. My body stayed in the past - only thoughts
                     were allowed throug...</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <article class="blog-card" >
-                <img class="blog-card__img" src="pp.png" alt="RARE">
+                <label class="blog-card__label" for="rare">RARE</label>
+                <img class="blog-card__img" id="rare" src="pp.png" alt="RARE">
                 <time class="blog-card__time" datetime="2022-12-08">08. Dec 2022</time>
                 <h3 class="blog-card__autor" >Primal.exe</h3>
                 <p class="blog-card__description" >We tried to resurrect the past. What we got was rage compressed into an algorithm.</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <article class="blog-card" >
-                <img class="blog-card__img" src="w.png" alt="NFT">
+                <label class="blog-card__label" for="nft">NFT</label>
+                <img class="blog-card__img" id="nft" src="w.png" alt="NFT">
                 <time class="blog-card__time" datetime="2022-06-20">20. Jun 2022</time>
                 <h3 class="blog-card__autor" >White Protocol</h3>
                 <p class="blog-card__description" >At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <article class="blog-card">
-                <img class="blog-card__img" src="dd.png" alt="DROP">
+                <label class="blog-card__label" for="drop">DROP</label>
+                <img class="blog-card__img" id="drop" src="dd.png" alt="DROP">
                 <time class="blog-card__time" datetime="2022-12-06">06. Dec 2022</time>
                 <h3 class="blog-card__autor" >Deadframe</h3>
                 <p class="blog-card__description" >He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <article  class="blog-card" >
-                <img class="blog-card__img" src="g.png" alt="NFT">
+                <label class="blog-card__label" for="nft">NFT</label>
+                <img class="blog-card__img" id="nft" src="g.png" alt="NFT">
                 <time class="blog-card__time" datetime="2022-12-07">07. Dec 2022</time>
                 <h3 class="blog-card__autor" >Glitch Panther</h3>
                 <p class="blog-card__description" >Cats always knew more than they showed. Especially the ones that vanish into code.</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <article class="blog-card" >
-                <img class="blog-card__img" src="r.png" alt="ARTIFACT">
+                <label class="blog-card__label" for="artifact">ARTIFACT</label>
+                <img class="blog-card__img" id="artifact" src="r.png" alt="ARTIFACT">
                 <time class="blog-card__time" datetime="2022-12-09">09. Dec 2022</time>
                 <h3 class="blog-card__autor" >Retrocore</h3>
                 <p class="blog-card__description" >This console comes from a game no one remembers how to play. But it's still powered on.</p>
-                <a class="blog-card__buttom" href="#">Read more</a>
+                <a class="blog-card__button" href="#">Read more</a>
             </article>
             <a class="button" href="#">Read more</a>
         </section>
@@ -169,10 +192,10 @@
                 <h3 class="person__name">Nova Riven</h3>
                 <p class="person__position">Creative Architect</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Facebook</a></li>
-                    <li class="sotiale-list__item" ><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
-                    <li class="sotiale-list__item" ><a href="#">Instagram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Facebook</a></li>
+                    <li class="sotiale-list__item" ><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
+                    <li class="sotiale-list__item" ><a class="sotiale-list__link" href="#">Instagram</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -180,10 +203,10 @@
                 <h3 class="person__name">Echo Zero</h3>
                 <p class="person__position">Tech Whisperer</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
-                    <li class="sotiale-list__item"><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
-                    <li class="sotiale-list__item"><a href="#">Instagram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Instagram</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -191,10 +214,10 @@
                 <h3 class="person__name">Kairo Null</h3>
                 <p class="person__position">Lore Engineer</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
-                    <li class="sotiale-list__item"><a href="#">Facebook</a></li>
-                    <li class="sotiale-list__item"><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Facebook</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -202,11 +225,11 @@
                 <h3 class="person__name" >Dr. Wex Omega</h3>
                 <p class="person__position">Visual Disruptor</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
-                    <li class="sotiale-list__item"><a href="#">Facebook</a></li>
-                    <li class="sotiale-list__item"><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
-                    <li class="sotiale-list__item"><a href="#">Instagram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Facebook</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Instagram</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -214,7 +237,7 @@
                 <h3 class="person__name" >Synthya Void</h3>
                 <p class="person__position">UX Seer</p>
                 <ul class="person__sotiale-list sotiale-list" >
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -222,11 +245,11 @@
                 <h3 class="person__name" >Mirlo Drift</h3>
                 <p class="person__position" >Community Catalyst</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
-                    <li class="sotiale-list__item"><a href="#">Facebook</a></li>
-                    <li class="sotiale-list__item"><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
-                    <li class="sotiale-list__item"><a href="#">Instagram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Facebook</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Instagram</a></li>
                 </ul>
             </article>
             <article class="person">
@@ -234,11 +257,11 @@
                 <h3 class="person__name" >Axon Rune</h3>
                 <p class="person__position" >Security Ghost</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a href="#">Twitter</a></li>
-                    <li class="sotiale-list__item"><a href="#">Facebook</a></li>
-                    <li class="sotiale-list__item"><a href="#">Telegram</a></li>
-                    <li class="sotiale-list__item"><a href="#">in</a></li>
-                    <li class="sotiale-list__item"><a href="#">Instagram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Twitter</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Facebook</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Telegram</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">in</a></li>
+                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">Instagram</a></li>
                 </ul>
             </article>
         </section>
@@ -246,55 +269,55 @@
             <h2 class="faq__titel">FAQs</h2>
             <div>
                 <details class="faq__phrase faq-info">
-                    <summary class="faq-info__title">
-                        <h3>What are the NFTs?</h3>
+                    <summary class="faq-info__summary">
+                        <h3 class="faq-info__title">What are the NFTs?</h3>
                     </summary>
                     <p class="faq-info__text">NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art,
                         music, code, memes, memories - anything that can be owned and vertfied.
                         No coples. No takes, Just you and the chain.</p>
                 </details>
                 <details class="faq__phrase faq-info">
-                    <summary class="faq-info__title">
-                        <h3>How do i get NFTs?</h3>
+                    <summary class="faq-info__summary">
+                        <h3 class="faq-info__title">How do i get NFTs?</h3>
                     </summary>
                 </details>
                 <details class="faq__phrase faq-info">
-                    <summary class="faq-info__title">
-                        <h3>How can we buy your NFTS?</h3>
+                    <summary class="faq-info__summary">
+                        <h3 class="faq-info__title">How can we buy your NFTS?</h3>
                     </summary>
                 </details>
                 <details class="faq__phrase faq-info">
-                    <summary class="faq-info__title">
-                        <h3>Who are the team behind the project?</h3>
+                    <summary class="faq-info__summary">
+                        <h3 class="faq-info__title">Who are the team behind the project?</h3>
                     </summary>
                 </details>
             </div>
         </section>
     </main>
-    <footer>
-        <section class="binabox">
-            <h2 class="binabox__title">
+    <footer class="footer">
+        <section class="branding">
+            <h2 class="branding__title">
                 About Us
             </h2>
-            <a class="binabox" href="#">Binabox</a>
-            <p class="binabox__description">We are the best way to check the rarity of NFT collection.</p>
+            <a class="branding__link" href="#">Binabox</a>
+            <p class="branding__description">We are the best way to check the rarity of NFT collection.</p>
         </section>
         <nav>
             <section class="navigation">
                 <h3 class="navigation__title">Navigation</h3>
                 <ul class="navigation__list">
-                    <li class="navigation__list-item"><a href="#">Home</a> </li>
-                    <li class="navigation__list-item"><a href="#">Blog</a></li>
-                    <li class="navigation__list-item"><a href="#">Catalog</a></li>
-                    <li class="navigation__list-item"><a href="#">Contact Us</a></li>
-                    <li class="navigation__list-item"><a href="#">Terms Conditions</a></li>
-                    <li class="navigation__list-item"><a href="#">Privacy Policy</a></li>
-                    <li class="navigation__list-item"><a href="#">Whitepaper</a></li>
-                    <li class="navigation__list-item"><a href="#">Help Center</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Home</a> </li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Blog</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Catalog</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Contact Us</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Terms Conditions</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Privacy Policy</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Whitepaper</a></li>
+                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Help Center</a></li>
                 </ul>
             </section>
         </nav>
-        <p class="binabox__description">BINABOX 2022 - ALL rights reserved</p>
+        <p class="logo__description">BINABOX 2022 - ALL rights reserved</p>
        <section class="networks">
             <h3 class="networks__title">
                 Social Networks

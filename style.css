@@ -1,6 +1,6 @@
 body {
     background-color: #0d0d15;
-    font-family: 'Poppins' Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 20px;
     line-height: 28px;
     text-align: left;
@@ -14,6 +14,7 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #f5f8fb;
+    text-decoration: none;
 
 }
 .button {
@@ -24,11 +25,10 @@ body {
     color: #f5f8fb;
     border: 2px #d0d7fb ;
     background-color: #0265DC;
+    text-decoration: none;
 }
 .button--primary{
-    border: 2px #d0d7fb;
-    border-radius: 2px #d0d7fb;
-    background-color:transparent;
+   background-color:transparent;
 }
 .banner__link button {
     font-weight: 600;
@@ -90,7 +90,10 @@ body {
     border: 2px #d0d7fb ;
 }
 
-.cataloge-item__price{
+.catalog-list__link{
+    text-decoration: none;
+}
+.catalog-list__price{
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
@@ -98,13 +101,26 @@ body {
     letter-spacing: -0.5px;
     color: #f5f8fb;
 }
-
-.cataloge-item__header {
+.catalog-list__label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #0265dc;
+    background-color:#f5f8fb;
+    
+}
+.label--primary{
+    color: #f5f8fb;
+    background-color: #ea3829
+}
+.catalog-list__header {
     font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
+    color: #f5f8fb;
 }
 
 .blog-section__titel {
@@ -114,7 +130,14 @@ body {
     line-height: 48px;
     letter-spacing: -0.5px;
 }
-
+.blog-card__label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #0265dc;
+    background-color:#f5f8fb;
+}
 .blog-card__time {
     font-family: 'Poppins';
     font-weight: 600;
@@ -139,7 +162,7 @@ body {
     line-height: 24px;
 }
 
-.blog-card__buttom {
+.blog-card__button {
      font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
@@ -148,6 +171,7 @@ body {
     vertical-align: middle;
     color: #f5f8fb;
     border: 2px #d0d7fb ;
+    text-decoration: none;
 }
 
 
@@ -251,12 +275,14 @@ body {
     font-size: 20px;
     line-height: 28px;
 }
-.navigation__list-item{
+.navigation__list-link{
      font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
+    color: #f5f8fb;
+    text-decoration: none;
 
 }
 .networks__title {
@@ -274,7 +300,7 @@ body {
     color: #f5f8fb;
 }
 
-p {
+.branding__description{
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
@@ -287,6 +313,7 @@ p {
     font-size: 14px;
     line-height: 20px;
     color: #f5f8fb;
+    text-decoration: none;
 }
 .categories__list-link{
     font-family: 'Poppins';
@@ -295,6 +322,7 @@ p {
     font-size: 14px;
     line-height: 20px;
     color: #f5f8fb;
+    text-decoration: none;
 }
 .tag__list-link{
     font-family: 'Poppins';
@@ -303,6 +331,7 @@ p {
     font-size: 14px;
     line-height: 20px;
     color: #f5f8fb;
+    text-decoration: none;
 }
 .blog__title{
   font-family: 'Bakbak One'; 
@@ -335,6 +364,15 @@ p {
    font-size: 16px;
    line-height: 24px;
    letter-spacing: 0px;
+}
+.post__text-link{
+       font-family: 'Poppins';
+   font-weight: 500; 
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-decoration: none;
 }
 .post__title{
   font-family: 'Bakbak One'; 
@@ -411,11 +449,13 @@ p {
     line-height: 24px;
     letter-spacing: 0px;
 }
-.list-tags{
+.list-tags-link{
     font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0px;  
+    color: #f5f8fb;
+    text-decoration: none;
 }
