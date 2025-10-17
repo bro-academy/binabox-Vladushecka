@@ -1,31 +1,46 @@
 body {
     background-color: #0d0d15;
-    font-family: 'Poppins'Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
     font-size: 20px;
     line-height: 28px;
     text-align: left;
     font-weight: 400;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-nav li a {
+.nav__list-link{
+    font-family: 'Poppins';
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
-}
+    color: #f5f8fb;
+    text-decoration: none;
 
-div a {
+}
+.button {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #f5f8fb;
+    border: 2px #d0d7fb ;
+    background-color: #0265DC;
+    text-decoration: none;
+}
+.button--primary{
+   background-color:transparent;
+}
+.banner__link button {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     background-color: #0265dc;
-    color: #fff;
+    color: #f5f8fb;
     border: 2px #d0d7fb ;
 }
 
-section h1 {
+.banner__header{
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 52px;
@@ -33,7 +48,8 @@ section h1 {
     letter-spacing: -0.5px;
 }
 
-p {
+.banner__text{
+    font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
@@ -41,71 +57,97 @@ p {
 
 }
 
-dl dd {
+.banner__counter-number{
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 52px;
     line-height: 62px;
     letter-spacing: -0.5px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-dl dt {
+.banner__counter-title{
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-main section h2 {
+.cataloge-section__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
 }
 
-a {
+.cataloge-section__link button {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
-    color: #fff;
+    color: #f5f8fb;
     border: 2px #d0d7fb ;
 }
 
-a article p {
+.catalog-list__link{
+    text-decoration: none;
+}
+.catalog-list__price{
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
-    color: #fff;
+    color: #f5f8fb;
 }
-
-a article h3 {
+.catalog-list__label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #0265dc;
+    background-color:#f5f8fb;
+    
+}
+.label--primary{
+    color: #f5f8fb;
+    background-color: #ea3829
+}
+.catalog-list__header {
+    font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
+    color: #f5f8fb;
 }
 
-section h2 {
+.blog-section__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
     line-height: 48px;
     letter-spacing: -0.5px;
 }
-
-article time {
+.blog-card__label{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #0265dc;
+    background-color:#f5f8fb;
+}
+.blog-card__time {
+    font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-article h3 {
+.blog-card__autor {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
@@ -113,23 +155,27 @@ article h3 {
     letter-spacing: -0.5px;
 }
 
-article p {
+.blog-card__description {
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
 }
 
-article a {
+.blog-card__button {
+     font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
     vertical-align: middle;
-    color: #fff;
+    color: #f5f8fb;
     border: 2px #d0d7fb ;
+    text-decoration: none;
 }
 
-section h2 {
+
+.about__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
@@ -137,39 +183,41 @@ section h2 {
     letter-spacing: -0.5px;
 }
 
-section p {
+.about__discription {
+    font-family: 'Poppins';
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
 }
 
-li h3 {
+.counted-list__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-li p {
+.counted-list__text {
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-button {
+.button--large {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
-    color: #fff;
+    color: #f5f8fb;
     background-color: transparent;
     border: 2px #d0d7fb ;
 }
 
-section h2 {
+.team__title {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
@@ -177,21 +225,21 @@ section h2 {
     letter-spacing: -0.5px;
 }
 
-article h3 {
+.person__name {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
 }
-
-article p {
+.person__position {
+    font-family: 'Poppins'; 
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0px;
 }
 
-section h2 {
+.faq__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 36px;
@@ -199,43 +247,215 @@ section h2 {
     letter-spacing: -0.5px;
 }
 
-summary h3 {
+.faq-info__title {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
 }
 
-details p {
+.faq-info__text {
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
 }
 
-footer section p {
+.binabox__description {
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
 }
 
-nav section h3 {
+.navigation__title{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+}
+.navigation__list-link{
+     font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #f5f8fb;
+    text-decoration: none;
+
+}
+.networks__title {
     font-weight: 500;
     font-style: normal;
     font-size: 20px;
     line-height: 28px;
 }
 
-section li a {
+.networks__link {
     font-weight: 600;
     font-style: normal;
     font-size: 12px;
     line-height: 16px;
-    color: #fff;
+    color: #f5f8fb;
 }
 
-p {
+.branding__description{
     font-style: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #fff;
+    color: #f5f8fb;
+}
+.blog__list-link{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f5f8fb;
+    text-decoration: none;
+}
+.categories__list-link{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f5f8fb;
+    text-decoration: none;
+}
+.tag__list-link{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f5f8fb;
+    text-decoration: none;
+}
+.blog__title{
+  font-family: 'Bakbak One'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0,5;
+}
+.categories__title{
+  font-family: 'Bakbak One'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.tag__title{
+  font-family: 'Bakbak One'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.post-text{
+   font-family: 'Poppins';
+   font-weight: 500; 
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0px;
+}
+.post__text-link{
+       font-family: 'Poppins';
+   font-weight: 500; 
+   font-style: normal;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0px;
+   text-decoration: none;
+}
+.post__title{
+  font-family: 'Bakbak One'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0; 
+}
+.post__button{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #f5f8fb;
+    border: 2px #d0d7fb ;
+    background-color: #0265DC; 
+}
+.post__author{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px; 
+}
+.post__time{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+.post__text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;  
+}
+.post__list-text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;  
+}
+.post__quote{
+  font-family: 'Bakbak One'; 
+  font-weight: 400; 
+  font-style: normal;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: 0; 
+}
+.post__quote-author{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px; 
+}
+.post__tags-title{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.list-tags-link{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;  
+    color: #f5f8fb;
+    text-decoration: none;
 }
