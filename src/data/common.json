@@ -13,23 +13,17 @@
       "link":"index.html"
     },
         {
-      "text":"About",
-      "link":"index.html"
+      "text":"Blog",
+      "link":"blog.html"
     },
         {
-      "text":"Collection",
-      "link":"index.html"
+      "text":"Catalog",
+      "link":"catalog.html"
     },
         {
-      "text":"Fags",
-      "link":"index.html"
-    },
-        {
-      "text":"Pages",
-      "link":"index.html"
+      "text":"Contact us",
+      "link":"contact.html"
     }
   ]
-    
   }
-
   }

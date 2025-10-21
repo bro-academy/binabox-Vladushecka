@@ -1,0 +1,9 @@
+ <article class="post">
+            <h3 class="post__title">{{ blog.post2.titel }}</h3>
+            <p class="post__text">{{ blog.post2.text }}<a class="post__text-link" href="#">{{ blog.post2.link }}</a>{{ blog.post2.text1 }}</p>
+            {% for item in blog.post2.list %}
+            <div class="post__tags">
+               {% include "post__tags.twig" %}
+            </div>
+            {% endfor %}
+        </article>

@@ -7,7 +7,13 @@
         <nav class="nav">
             <ul class="nav__list list-item">
                  {% for item in header.nav %}
-                <li class="nav__list-item"><a class="nav__list-link" href="{{ item.link }}">{{ item.text }}</a></li>
+                <li class="nav__list-item">
+                    <a class="nav__list-link 
+                    {% if item.link == url %}
+                     nav__list-link--active
+                     {% endif %}
+                    " href="{{ item.link }}">{{ item.text }}</a>
+                </li>
                 {% endfor %}
                
             </ul>

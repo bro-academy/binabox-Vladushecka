@@ -1,4 +1,11 @@
 <section class="blog-section">
-            <h2 class="blog-section__title">Our blog</h2>
-            <a href="#">Read more</a>
+            <h2 class="blog-section__titel">{{ index.blog.title }}</h2>
+            <ul class="blog-section__list">
+                {% for card in index.blog.list %}
+                <li class="blog-section__list-item blog-card">
+                    {% include "blog-card.twig" %}
+                </li>
+                {% endfor %}
+            </ul>
+            <a class="button button--large" href="#">Read more</a>
         </section>

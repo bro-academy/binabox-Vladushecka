@@ -1,0 +1,10 @@
+<section class="categories">
+                <h2 class="categories__title">{{ blog.categories.titel }}</h2>
+                <ul class="categories__list">
+                    {% for item in blog.categories.list %}
+                    <li class="categories__list-item">
+                        {% include "categories__list-link.twig" %}
+                    </li>
+                   {% endfor %}
+                </ul>
+            </section>

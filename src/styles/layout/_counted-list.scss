@@ -1,15 +1,15 @@
-.person{
-    &__name {
+.counted-list__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
     line-height: 32px;
+    color: #f5f8fb;
 }
-&__position {
-    font-family: 'Poppins'; 
+
+.counted-list__text {
+    font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
-    letter-spacing: 0px;
-}
+    color: #f5f8fb;
 }

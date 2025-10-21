@@ -1,0 +1,26 @@
+        <article class="post">
+            <figure class="post__figure">
+                <img class="post__img " src="s.png" alt="A Basilisk enters the arena - its emerald scales shimmer with encoded rage.">
+                <figcaption class="post-text">{{ blog.post.figcaption }}</figcaption>
+            </figure>
+            <h2 class="post__title">{{ blog.post.titel }}</h2>
+            <button class="post__button">{{ blog.post.button }}</button>
+            {% for item in blog.post.div %}
+            <div class="post__meta-line">
+                {% include "post__meta-line.twig" %}
+            </div>
+            {% endfor %}
+            <p class="post__text">{{ blog.post.text }}</p>
+            <ul class="post__list">
+                {% for item in blog.post.list %}
+                <li class="post__list-item">
+                    {% include "post__list.twig" %}
+                    </li>
+                    {% endfor %}
+            </ul>
+            {% for item in blog.post.blockquote %}
+            <blockquote class="post__quote">
+                {% include "post__quote.twig" %}
+            </blockquote>
+            {% endfor %}
+        </article>

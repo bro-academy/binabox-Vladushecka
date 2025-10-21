@@ -1,25 +1,26 @@
-
+.button {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #f5f8fb;
+    border: 2px #d0d7fb ;
+    background-color: #0265DC;
+}
 .button--primary{
-    color: #fff;
     border: 2px #d0d7fb;
     border-radius: 2px #d0d7fb;
     background-color:transparent;
+    text-decoration: none;
+
 }
-.button {
+.button--large {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
-    background-color: #0265dc;
-    color: #fff;
-    border: 2px #d0d7fb ;
-}
-.button about__button button--large {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 18px;
-    line-height: 28px;
-    color: #fff;
+    color: #f5f8fb;
     background-color: transparent;
     border: 2px #d0d7fb ;
+    text-decoration: none;
 }

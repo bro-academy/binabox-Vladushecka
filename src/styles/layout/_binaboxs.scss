@@ -1,0 +1,45 @@
+.banner{
+&__header{
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+}
+&__text{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 28px;
+
+}
+&__link{ 
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    background-color: #0265dc;
+    color: #f5f8fb;
+    border: 2px #d0d7fb ;
+    text-decoration: none;
+}
+&__counter-number{
+    font-family: 'Bakbak One';
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0.5px;
+    color: #f5f8fb;
+}
+&__counter-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f8fb;
+}
+
+}
+
+

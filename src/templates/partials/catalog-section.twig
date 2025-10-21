@@ -1,13 +1,16 @@
-<section class="catalog-section">
-            <h2 class="catalog-section__title">{{ index.catalog.title }}</h2>
-            <a href="#" class="catalog-section__link">{{ index.catalog.button }}</a>
+
+
+ <section class="catalog-section">
+            <h2 class="catalog-section__titel">{{ index.catalog.title }}</h2>
+            <a href="#" class="catalog-section__link button">{{ index.catalog.button }}</a> 
             <button class="catalog-section__button"></button>
             <button class="catalog-section__button"></button>
-            <ul class="catalog-sectione-list">
+            <ul class="catalog-section__list catalog-list">
                 {% for item in index.catalog.list %}
-                <li class="catalog-section-list__item">
-                    {% include "catalog-item.twig" %}
+                <li class="catalog-list__item"> 
+                   {% include "catalog-list.twig" %}
                 </li>
                 {% endfor %}
             </ul>
-</section>
+            
+ </section>
