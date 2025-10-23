@@ -1,8 +1,8 @@
  <article class="blog-card">
-                <label class="blog-card__label" for="nft">{{ card.label }}</label>
-                <img class="blog-card__img" id="nft" src="nn.png" alt="NFT">
-                <time class="blog-card__time" datetime="2022-12-04">{{ card.time }}</time>
+                <span class="blog-card__label" for="nft">{{ card.label }}</span>
+                <img class="blog-card__img" id="nft" src="{{ card.scr }}" alt="{{ card.alt }}">
+                <time class="blog-card__time" datetime="{{ card.datetime }}">{{ card.time }}</time>
                 <h3 class="blog-card__autor">{{ card.title }}</h3>
                 <p class="blog-card__description">{{ card.text }}</p>
-                <a class="blog-card__button" href="#">Read more</a>
+                <a class="blog-card__button" href="{{ card.href }}">Read more</a>
             </article>

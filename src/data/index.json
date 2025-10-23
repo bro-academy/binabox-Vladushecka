@@ -2,7 +2,7 @@
 {
 "url": "index.html",
  "index":{
-  "binabox":{
+  "banner":{
     "heading":{
 "part_1":"WITH",
 "part_2":"BINABOX",
@@ -19,29 +19,39 @@
   "list":[
     {
       "img":"url",
+       "scr":"m.png",
+       "alt":"Echo of Bones",
       "name":"Echo of Bones",
       "price":"$1990",
       "label":"New"
     },
       {
       "img":"url",
+       "scr":"n.png",
+       "alt":"Nyx the Watcher",
       "name":"Nyx the Watcher",
       "price":"$299.99",
       "label":"New"
     },
       {
       "img":"url",
+       "scr":"b.png",
+       "alt":"Blade of Silence",
       "name":"Blade of Silence",
       "price":"$20",
       "label":"Sold out"
     },
       {
       "img":"url",
+       "scr":"d.png",
+       "alt":"Data Core: Alpha",
       "name":"Data Core: Alpha",
       "price":"$1.000.000"
     },
       {
       "img":"url",
+       "scr":"p.png",
+       "alt":"Phantom Console",
       "name":"Phantom Console",
       "price":"$199.5"
     }
@@ -53,50 +63,74 @@
     {
       "label":"NFT",
     "img":"url",
+    "scr":"nn.png",
+    "alt":"nft",
     "time":"04. Dec 2022",
+    "datetime":"2022-12-04",
     "title":"Neural Drift",
     "text":"I woke up inside the void. My body stayed in the past - only thoughtswere allowed throug..",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     },
     {
       "label":"RARE",
     "img":"url",
+    "scr":"pp.png",
+    "alt":"rare",
     "time":"08. Dec 2022",
+    "datetime":"2022-12-08",
     "title":"Primal.exe",
     "text":"We tried to resurrect the past. What we got was rage compressed into an algorithm.",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     },
     {
       "label":"NFT",
     "img":"url",
+    "scr":"ww.png",
+    "alt":"nft",
     "time":"20. Jun 2022",
+    "datetime":"2022-06-20",
     "title":"White Protocol",
     "text":"At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     },
     {
       "label":"DROP",
     "img":"url",
+    "scr":"dd.png",
+    "alt":"drop",
     "time":"06. Dec 2022",
+    "datetime":"2022-12-06",
     "title":"Deadframe",
     "text":"He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     },
     {
       "label":"NFT",
     "img":"url",
+    "scr":"gg.png",
+    "alt":"nft",
     "time":"07. Dec 2022",
+    "datetime":"2022-12-07",
     "title":"Glitch Panther",
     "text":"Cats always knew more than they showed. Especially the ones that vanish into code.",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     },
     {
       "label":"ARTIFACT",
     "img":"url",
+    "scr":"rr.png",
+    "alt":"artifact",
     "time":"09. Dec 2022",
+    "datetime":"2022-12-09",
     "title":"Retrocore",
     "text":"This console comes from a game no one remembers how to play. But it's still powered on.",
-    "link":"Read more"
+    "link":"Read more",
+    "href":"#"
     }
   ]
  },
@@ -126,64 +160,162 @@
     "img":"url",
     "title":"Nova Riven",
     "text":"Creative Architect",
-        "link1":"Facebook",
-        "link2":"Telegram",
-         "link3":"in",
-         "link4":"Instagram"
+    "links": [
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  },
+  {
+     "icon": "instagram",
+    "link": "instagram.com" 
+  }
+]
   },
    {
     "img":"url",
     "title":"Echo Zero",
     "text":"Tech Whisperer",
-        "link1":"Twitter",
-        "link2":"Telegram",
-         "link3":"in",
-         "link4":"Instagram"
+     "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  },
+  {
+     "icon": "instagram",
+    "link": "instagram.com" 
+  }
+]
   },
    {
     "img":"url",
     "title":"Kairo Null",
     "text":"Lore Engineer",
-        "link1":"Twitter",
-        "link2":"Facebook",
-         "link3":"Telegram",
-         "link4":"in"
+      "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  }
+]
   },
    {
     "img":"url",
     "title":"Dr. Wex Omega",
     "text":"Visual Disruptor",
-        "link1":"Twitter",
-        "link2":"Facebook",
-         "link3":"Telegram",
-         "link4":"in",
-         "link5":"Instagram"
+    "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  },
+    {
+     "icon": "instagram",
+    "link": "instagram.com" 
+  }
+]
   },
    {
     "img":"url",
     "title":"Synthya Void",
     "text":"UX Seer",
-        "link1":"Twitter"
+      "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  }
+]
   },
    {
     "img":"url",
     "title":"Mirlo Drift",
     "text":"Community Catalyst",
-        "link1":"Twitter",
-        "link2":"Facebook",
-         "link3":"Telegram",
-         "link4":"in",
-         "link5":"Instagram"
+      "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  },
+    {
+     "icon": "instagram",
+    "link": "instagram.com" 
+  }
+]
         },
    {
     "img":"url",
     "title":"Axon Rune",
     "text":"Security Ghost",
-        "link1":"Twitter",
-        "link2":"Facebook",
-         "link3":"Telegram",
-         "link4":"in",
-         "link5":"Instagram"
+       "links": [
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "in",
+    "link": "in.com" 
+  },
+    {
+     "icon": "instagram",
+    "link": "instagram.com" 
+  }
+]
         }
 ]
  },
@@ -204,7 +336,53 @@
     "title":"Who are the team behind the project?"
   }
   ]
+ },
+ "footer":{
+"branding":{
+  "titel":"About Us",
+  "link":"binabox",
+  "text":"We are the best way to check the rarity of NFT collection."
+},
+"navigation":{
+  "titel":"Navigation",
+  "list":[{
+    "text": "home",
+    "link":"home"
+  },
+   {
+     "text": "blog",
+    "link": "blog"
+   },
+   {
+     "text":"Catalog",
+    "link":"Catalog"
+   },
+   {
+     "text":"Contact Us",
+    "link": "Contact Us"
+   }
+   ,
+   {
+     "text":"Terms Conditions",
+    "link":"Terms Conditions"
+   }
+   ,
+   {
+     "text":"Privacy Policy",
+    "link":"Privacy Policy"
+   }
+   ,
+   {
+     "text":"Whitepaper",
+    "link":"Whitepaper"
+   }
+   ,
+   {
+     "text": "Help Center",
+    "link":"Help Center"
+   }
+  ]
+}
  }
-
 }
 }

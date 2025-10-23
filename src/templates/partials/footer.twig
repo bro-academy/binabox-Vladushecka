@@ -10,14 +10,11 @@
             <section class="navigation">
                 <h3 class="navigation__title">Navigation</h3>
                 <ul class="navigation__list">
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Home</a> </li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Blog</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Catalog</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Contact Us</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Terms Conditions</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Privacy Policy</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Whitepaper</a></li>
-                    <li class="navigation__list-item"><a class="navigation__list-link" href="#">Help Center</a></li>
+                    <li class="navigation__list-item">
+                         {% for item in index.footer.list %}
+                        <a class="navigation__list-link" href="{{item.link}}">{{item.text}}</a>
+                        {% endfor %}
+                     </li>
                 </ul>
             </section>
         </nav>

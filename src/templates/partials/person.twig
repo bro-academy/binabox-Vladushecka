@@ -3,9 +3,11 @@
                 <h3 class="person__name">{{ person.title }}</h3>
                 <p class="person__position">{{ person.text }}</p>
                 <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">{{ person.link1 }}</a></li>
-                    <li class="sotiale-list__item" ><a class="sotiale-list__link" href="#">{{ person.link2 }}</a></li>
-                    <li class="sotiale-list__item"><a class="sotiale-list__link" href="#">{{ person.link3 }}</a></li>
-                    <li class="sotiale-list__item" ><a class="sotiale-list__link" href="#">{{ person.link4 }}</a></li>
-                    <li class="sotiale-list__item" ><a class="sotiale-list__link" href="#">{{ person.link5 }}</a></li>
+                    <li class="sotiale-list__item">
+                        {% for person in index.team.list.links %}
+                        <a class="sotiale-list__link" href="{{ person.link }}">{{ person.icon }}
+                             {% endfor %}
+                        </a>
+                    </li>
                 </ul>
+            </article>

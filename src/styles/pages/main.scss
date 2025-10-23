@@ -1,8 +1,8 @@
 @use'../base/global';
 
-@use'../layout/binaboxs';
-@use'../layout/catalog';
-@use'../layout/catalog-list';
+@use'../layout/banner';
+@use'../layout/catalog-section';
+@use'../layout/card';
 @use'../layout/blog-section';
 @use'../layout/blog-card.scss';
 @use'../layout/about';
@@ -17,7 +17,7 @@
 @use'../layout/post';
 
 @use'../components/button';
-@use'../components/nav__list-link';
+@use'../components/nav';
 @use'../components/navigation';
 @use'../components/branding';
 @use'../components/networks';

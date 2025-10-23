@@ -3,7 +3,7 @@
             <ul class="blog__list">
                 {% for item in blog.heading.list %}
                 <li class="blog__list-item">
-                    {% include "blog__list-link.twig" %}
+                    <a class="blog__list-link" href="{{ item.link }}">{{ item.text }}</a>
                 </li>
                 {% endfor %}
             </ul>

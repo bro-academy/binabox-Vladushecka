@@ -1,8 +1,8 @@
 @import "./_about.scss";
-@import "./_binaboxs.scss";
+@import "./_banner.scss";
 @import "./_blog-section.scss";
-@import "./_catalog-list.scss";
-@import "./_catalog.scss";
+@import "./_card.scss";
+@import "./_catalog-section.scss";
 @import "./_categories.scss";
 @import "./_counted-list.scss";
 @import "./_faq-info.scss";

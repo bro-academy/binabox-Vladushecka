@@ -7,20 +7,24 @@
             <button class="post__button">{{ blog.post.button }}</button>
             {% for item in blog.post.div %}
             <div class="post__meta-line">
-                {% include "post__meta-line.twig" %}
+              <span class="post__author">{{ item.span }}
+                </span>
+                |
+                <time class="post__time" datetime="2022-06-20">{{ item.time }}</time>
             </div>
             {% endfor %}
             <p class="post__text">{{ blog.post.text }}</p>
             <ul class="post__list">
                 {% for item in blog.post.list %}
                 <li class="post__list-item">
-                    {% include "post__list.twig" %}
+                   <p class="post__list-text">{{ item }}</p>
                     </li>
                     {% endfor %}
             </ul>
             {% for item in blog.post.blockquote %}
             <blockquote class="post__quote">
-                {% include "post__quote.twig" %}
+                <p class="post__quote-text">{{ item.text }}</p>
+                <cite class="post__quote-author">{{ item.author }}</cite>
             </blockquote>
             {% endfor %}
         </article>

@@ -1,140 +1,154 @@
 {
-"url": "blog.html",
- "blog":{
-    "heading":{
- "titel":"Our blog",
- "list":[
-    {
-        "link1":"home"
-    },
-    {
-        "link2":"Our blog"
-    },
-    {
-        "link3":"The Basilisks NFT"
-    }
- ]
-    },
-   "categories":{
-    "titel":"Categories",
-    "list":[
-        {
-        "link1":"Our blog(12)"
-    },
-    {
-        "link2":"Metaverse(24)"
-    },
-     {
-        "link3":"Gaming(24)"
-    },
-      {
-        "link4":"Art(24)"
-    },
-      {
-        "link5":"Robot(24)"
-    },
-      {
-        "link6":"Launchpad(24)"
-    },
-      {
-        "link7":"Crypto(430)"
-    }
-    ]
-   },
-   "tag":{
-    "titel":"Tag",
-    "list":[
-        {
-        "link1":"NFT"
-    },
-    {
-        "link2":"ICO"
-    },
-    {
-        "link3":"Robot"
-    },
-    {
-        "link4":"Crypto"
-    },
-    {
-        "link5":"Launchpad"
-    },
-    {
-        "link6":"Metaverse"
-    }
-    ]
-   },
-    "post":{
-    "figure":[
-        {
-            "img":"url",
-            "figcaption":"A Basilisk enters the arena - its emerald scales shimmer with encoded rage."
-        }
-    ],
-    "titel":"The Basilisks NFT",
-    "button":"Gaming",
-    "div":[
-{ 
-     "span":"Tony Nguyen",
-    "time":"20 Jun 2022"
-}
-    ],
-    "text":"Basilisks aren't just creatures - they're digital apex predators. Forged on the Ethereum chain and raised in a metaverse colosseum, they live to dominate, duel, and devour. Every one of them is an NFT with unique DNA, traits, and bloodlust.",
-    "list":[
-        {
-            "text":"In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you're ready, you send it into the arena - not to play, but to survive.",
-            "text1":"Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don't just watch - they stake tokens, call hits, and climb leaderboards.",
-            "text2":"The game's Al learns from every move. If your Basilisk gets too strong - it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power.",
-            "text3":"Unique DNA structure",
-            "text4":"PvP-enabled arenas",
-            "text5":"Permanent death mode",
-            "text6":"Metaverse integration"
-        }
-    ],
-    "blockquote":[
-        {
-            "text":"The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
-            "author":"Markout Corporation"
-        }
-    ]
-},
-   "post1":{
-    "figure":[
-        {
-            "img":"url",
-            "figcaption":"Close-up of a Gen-3 Basilisk. Eyes trained by code"
-        }
-    ],
-    "figure1":[
-        {
-            "img":"url",
-            "figcaption1":"A bonded Basilisk with its summoner. Loyalty is minted- not earned."
-        }
-    ],
-    "titel":"NFTs are digital assets that represent real-world objects",
-    "text":"Setting up your avatar and personalizing your nickname on Binance is quick and easy. Users can go to binance.com under Dashboard › Settings › My Profile › Avatar and Nickname. For those of you who own NFT assets, you can select the NFT you want to use from your collection as your avatar to personalize your profile. For users who do not own any NFT avatars, check out the NFT avatar collections page to get started.",
-    "text1":"Alternatively, if you're on nft.binance.com, go to User Center › Settings › Basic › Set Avatar and Nickname, and you'll be redirected to the main site. Binance NFT Creators have the option of setting their Avatars on nft.binance.com. Once you set your new unique nickname, it will be standardized and used across the Binance ecosystem."
-   },
-   "post2":{
-    "titel":"NFT Avatar Generators",
-    "text":"Looking to join the pack? Use the ",
-    "text1":" to craft your own beast - or grab a rare egg on the marketplace. You name it. You own it. You unleash it",
-    "link":"NFT Avatar Generator",
-    "list":[
-        {
-            "titel":"Tags:",
-            "link":"NFT",
-            "link1":"Metaverse",
-            "link2":"Crypto"
+    "url": "blog.html",
+    "blog": {
+        "heading": {
+            "titel": "Our blog",
+            "list": [
+                {
+                    "text": "Home",
+                    "link": "index.html"
+                },
+                {
+                    "text": "Our blog",
+                    "link": "blog.html"
+                },
+                {
+                    "text": "The Basilisks NFT",
+                    "link": "blog.html"
+                }
+            ]
         },
-          {
-            "titel1":"Share",
-            "link3":"Twitter",
-            "link4":"Facebook",
-            "link5":"Instagram"
+        "categories": {
+            "titel": "Categories",
+            "list": [
+                {
+                    "text": "Our blog(12)",
+                    "link": "our blog"
+                },
+                {
+                    "text": "Metaverse(24)",
+                    "link": "metaverse"
+                },
+                {
+                    "text": "Gaming(24)",
+                    "link": "gaming"
+                },
+                {
+                    "text": "Art(24)",
+                    "link": "art"
+                },
+                {
+                    "text": "Robot(24)",
+                    "link": "robot"
+                },
+                {
+                    "text": "Launchpad(24)",
+                    "link": "launchpad"
+                },
+                {
+                    "text": "Crypto(430)",
+                    "link": "crypto"
+                }
+            ]
+        },
+        "tag": {
+            "titel": "Tag",
+            "list": [
+                {
+                    "text":"NFT",
+                    "link1": "nft"
+                },
+                {
+                    "text":"ICO",
+                    "link2": "ico"
+                },
+                {
+                    "text":"Robot",
+                    "link3": "robot"
+                },
+                {
+                    "text":"Crypto",
+                    "link4": "crypto"
+                },
+                {
+                    "text":"Launchpad",
+                    "link5": "launchpad"
+                },
+                {
+                    "text":"Metaverse",
+                    "link6": "metaverse"
+                }
+            ]
+        },
+        "post": {
+            "figure": [
+                {
+                    "img": "url",
+                    "figcaption": "A Basilisk enters the arena - its emerald scales shimmer with encoded rage."
+                }
+            ],
+            "titel": "The Basilisks NFT",
+            "button": "Gaming",
+            "div": [
+                {
+                    "span": "Tony Nguyen",
+                    "time": "20 Jun 2022"
+                }
+            ],
+            "text": "Basilisks aren't just creatures - they're digital apex predators. Forged on the Ethereum chain and raised in a metaverse colosseum, they live to dominate, duel, and devour. Every one of them is an NFT with unique DNA, traits, and bloodlust.",
+            "list": [
+                
+                     "In this game, your Basilisk is your warrior. You breed it. You name it. You train it. And when you're ready, you send it into the arena - not to play, but to survive.",
+                     "Each NFT Basilisk has a set of traits, mutations, and skills, minted immutably on-chain. The arena? A fully 3D metaverse battleground with wagers, livestreams, and faction wars. Players don't just watch - they stake tokens, call hits, and climb leaderboards.",
+                    "The game's Al learns from every move. If your Basilisk gets too strong - it becomes a target. If it dies? It's burned forever. If it wins? You earn crypto, glory, and power.",
+                   "Unique DNA structure",
+                     "PvP-enabled arenas",
+                    "Permanent death mode",
+                     "Metaverse integration"
+            
+            ],
+            "blockquote": [
+                {
+                    "text": "The first huge metaverse arena to arrange live sports, hang out and even make bets and wagers",
+                    "author": "Markout Corporation"
+                }
+            ]
+        },
+        "post1": {
+            "figure": [
+                {
+                    "img": "url",
+                    "figcaption": "Close-up of a Gen-3 Basilisk. Eyes trained by code"
+                }
+            ],
+            "figure1": [
+                {
+                    "img": "url",
+                    "figcaption1": "A bonded Basilisk with its summoner. Loyalty is minted- not earned."
+                }
+            ],
+            "titel": "NFTs are digital assets that represent real-world objects",
+            "text": "Setting up your avatar and personalizing your nickname on Binance is quick and easy. Users can go to binance.com under Dashboard › Settings › My Profile › Avatar and Nickname. For those of you who own NFT assets, you can select the NFT you want to use from your collection as your avatar to personalize your profile. For users who do not own any NFT avatars, check out the NFT avatar collections page to get started. Alternatively, if you're on nft.binance.com, go to User Center › Settings › Basic › Set Avatar and Nickname, and you'll be redirected to the main site. Binance NFT Creators have the option of setting their Avatars on nft.binance.com. Once you set your new unique nickname, it will be standardized and used across the Binance ecosystem."
+        },
+        "post2": {
+            "titel": "NFT Avatar Generators",
+            "text": "Looking to join the pack? Use the ",
+            "text1": " to craft your own beast - or grab a rare egg on the marketplace. You name it. You own it. You unleash it",
+            "link": "NFT Avatar Generator",
+            "list": [
+                {
+                    "titel": "Tags:"
+                },
+                     "NFT",
+                     "Metaverse",
+                     "Crypto",
+                {
+                    "titel": "Share"
+                },
+                    "Twitter",
+                     "Facebook",
+                     "Instagram"
+            ]
         }
-    ]
-   }
+    }
 }
- }
-
