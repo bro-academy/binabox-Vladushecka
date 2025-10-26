@@ -6,15 +6,35 @@
     color: #f5f8fb;
     border: 2px #d0d7fb ;
     background-color: #0265DC;
+    &:hover{
+background-color:#3892F3;
 }
-.button--primary{
+&:focus{
+    border: 4px #3892F3;
+}
+&:active{
+background-color: #0054B6;
+}
+&--primary{
     border: 2px #d0d7fb;
+    border-color: #d0d7fb 17%;
     border-radius: 2px #d0d7fb;
     background-color:transparent;
     text-decoration: none;
-
+&:hover{
+background-color: #BFC5EE1F ;
+border-color: #BFC5EE1F ;
 }
-.button--large {
+&:focus{
+background-color: #BFC5EE1F ;
+border-color: #3892F3 ;
+}
+&:active{
+background-color: #BFC5EE1F 12%;
+border-color: #BFC5EE1F 12%;
+}
+}
+&--large {
     font-weight: 600;
     font-style: normal;
     font-size: 18px;
@@ -23,4 +43,26 @@
     background-color: transparent;
     border: 2px #d0d7fb ;
     text-decoration: none;
+    &:hover{
+background-color: #BFC5EE1F ;
+border-color: #BFC5EE1F ;
 }
+&:focus{
+background-color: #BFC5EE1F ;
+border-color: #3892F3 ;
+}
+&:active{
+background-color: #BFC5EE1F 12%;
+border-color: #BFC5EE1F 12%;
+}
+
+}
+}
+
+
+
+
+
+
+
+

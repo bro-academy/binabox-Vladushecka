@@ -1,33 +1,34 @@
  <footer class="footer">
         <section class="branding">
             <h2 class="branding__title">
-                About Us
+                {{ index.footer.branding.titel }}
             </h2>
-            <a class="branding__link" href="#">Binabox</a>
-            <p class="branding__description">We are the best way to check the rarity of NFT collection.</p>
+            <a class="branding__link" href="#">{{ index.footer.branding.link }}</a>
+            <p class="branding__description">{{ index.footer.branding.text }}</p>
         </section>
         <nav>
             <section class="navigation">
-                <h3 class="navigation__title">Navigation</h3>
+                <h3 class="navigation__title">{{ index.footer.navigation.titel }}</h3>
                 <ul class="navigation__list">
+                    {% for item in index.footer.navigation.list %}
                     <li class="navigation__list-item">
-                         {% for item in index.footer.list %}
                         <a class="navigation__list-link" href="{{item.link}}">{{item.text}}</a>
                         {% endfor %}
                      </li>
                 </ul>
             </section>
         </nav>
-        <p class="branding__description">BINABOX 2022 - ALL rights reserved</p>
+        <p class="branding__description">{{ index.footer.text }}</p>
        <section class="networks">
             <h3 class="networks__title">
-                Social Networks
+                {{ index.footer.networks.titel }}
             </h3>
-            <a class="networks__link" href="#">Twitter</a>
-            <a class="networks__link" href="#">Facebook</a>
-            <a class="networks__link" href="#">Telegram</a>
-            <a class="networks__link" href="#">YouTube</a>
-            <a class="networks__link" href="#">TikTok</a>
-            <a class="networks__link" href="#">Discord</a>
+            <ul class="networks__list">
+                    <li class="networks__list-item">
+                         {% for item in index.footer.networks.list %}
+                        <a class="networks__list-link" href="{{item.link}}">{{item.icon}}</a>
+                        {% endfor %}
+                     </li>
+            
         </section>
     </footer>

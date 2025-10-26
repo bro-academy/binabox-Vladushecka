@@ -70,7 +70,7 @@
     "title":"Neural Drift",
     "text":"I woke up inside the void. My body stayed in the past - only thoughtswere allowed throug..",
     "link":"Read more",
-    "href":"#"
+    "href":""
     },
     {
       "label":"RARE",
@@ -382,7 +382,38 @@
     "link":"Help Center"
    }
   ]
+},
+"text":"BINABOX 2022 - ALL rights reserved",
+"networks":{
+  "titel":"Social Networks",
+"list":[
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "youtube",
+    "link": "youtube.com" 
+  },
+    {
+     "icon": "tiktok",
+    "link": "tiktok.com" 
+  },
+    {
+     "icon": "discord",
+    "link": "discord.com" 
+  }
+]
 }
+
  }
 }
 }
