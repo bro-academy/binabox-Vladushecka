@@ -5,26 +5,25 @@
             </figure>
             <h2 class="post__title">{{ blog.post.titel }}</h2>
             <button class="post__button button ">{{ blog.post.button }}</button>
-            {% for item in blog.post.div %}
             <div class="post__meta-line">
-              <span class="post__author">{{ item.span }}
+              <span class="post__author">{{blog.post.div.name }}
                 </span>
                 |
-                <time class="post__time" datetime="2022-06-20">{{ item.time }}</time>
+                <time class="post__time" datetime="2022-06-20">{{ blog.post.div.time }}</time>
             </div>
-            {% endfor %}
             <p class="post__text">{{ blog.post.text }}</p>
             <ul class="post__list">
                 {% for item in blog.post.list %}
                 <li class="post__list-item">
-                   <p class="post__list-text">{{ item }}</p>
+                   <p class="post__list-text">{{ item.text }}</p>
+                   <p class="post__list-text">{{ item.item }}</p>
                     </li>
                     {% endfor %}
             </ul>
-            {% for item in blog.post.blockquote %}
+
             <blockquote class="post__quote">
-                <p class="post__quote-text">{{ item.text }}</p>
-                <cite class="post__quote-author">{{ item.author }}</cite>
+                <p class="post__quote-text">{{blog.post.blockquote.text }}</p>
+                <cite class="post__quote-author">{{ blog.post.blockquote.author }}</cite>
             </blockquote>
-            {% endfor %}
+
         </article>

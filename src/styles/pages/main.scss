@@ -1,4 +1,6 @@
 @use'../base/global';
+@use'../base/mixins';
+@use'../base/variables';
 
 @use'../layout/banner';
 @use'../layout/catalog-section';
@@ -15,12 +17,25 @@
 @use'../layout/categories';
 @use'../layout/tag';
 @use'../layout/post';
+@use'../layout/catalog';
+@use'../layout/contact';
+@use'../layout/touch';
+@use'../layout/item-card';
+@use'../layout/items';
+@use'../layout/eyes';
+@use'../layout/special';
+@use'../layout/background';
+@use'../layout/skin';
+@use'../layout/face';
+@use'../layout/clothing';
 
 @use'../components/button';
 @use'../components/nav';
 @use'../components/navigation';
 @use'../components/branding';
 @use'../components/networks';
+
+
 footer {
   background-color: #333333;
   color: var(--white-color);

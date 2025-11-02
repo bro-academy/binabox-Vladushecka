@@ -1,3 +1,6 @@
+@use'../base/variables' as *;
+@use'../base/mixins' as *;
+
 .banner{
 &__header{
     font-family: 'Bakbak One';
@@ -13,6 +16,19 @@
     font-size: 20px;
     line-height: 28px;
 
+    @include mobile {
+        color: red;
+    }
+
+ @include tablet {
+        color: blue;
+    }
+    @include desktop {
+        color: gold;
+    }
+        @include desktop-large {
+        color: green;
+    }
 }
 &__link{ 
     font-weight: 600;

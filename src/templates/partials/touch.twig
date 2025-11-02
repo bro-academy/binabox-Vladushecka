@@ -1,0 +1,22 @@
+<section class="touch">
+<ul class="touch__list">
+    <li class="touch__list-item item-card">
+ {% for item in contact.touch.list %}
+<article class="item-card__card">
+    <img class="item-card__img" src="{{ item.scr }}" alt="{{ item.alt }}">
+<h2 class="item-card__titel">{{ item.titel }}</h2>
+<p class="item-card__text">{{ item.text }}</p>
+</article>
+{% endfor %}
+    </li>
+</ul>
+<h2 class="touch__titel">{{ contact.touch.titel }}</h2>
+<p class="touch__text">{{ contact.touch.text }}</p>
+<form class="touch__form" action="">
+    {% for item in contact.touch.form %}
+<p class="touch__form-text">{{ item.text }}</p>
+<label class="touch__form-label" for="{{ item.for }}">{{ item.label }}</label>
+<input class="touch__form-input" type="{{ item.type }}" name="{{ item.name }}" value="{{ item.value }}" id="{{ item.id }}">
+{% endfor %}
+</form>
+</section>

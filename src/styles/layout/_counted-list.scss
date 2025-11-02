@@ -1,4 +1,5 @@
-.counted-list__titel {
+.counted-list{
+&__titel {
     font-family: 'Bakbak One';
     font-style: normal;
     font-size: 24px;
@@ -6,10 +7,11 @@
     color: #f5f8fb;
 }
 
-.counted-list__text {
+&__text {
     font-family: 'Poppins';
     font-style: normal;
     font-size: 18px;
     line-height: 28px;
     color: #f5f8fb;
+}
 }

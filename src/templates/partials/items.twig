@@ -1,0 +1,26 @@
+<section class="items">
+    <h2 class="items__titel">{{ catalog.items.titel }}</h2>
+<input type="{{ catalog.items.input.type }}" value="{{ catalog.items.input.value }}" name="{{ catalog.items.input.name }}">
+<form class="items__form">
+    <select class="items__form-select" name="select" id="select">
+         {% for item in catalog.items.select.option %}
+<option class="items__form-option" value="{{ item.value }}">{{ item.name }}</option>
+     {% endfor %}
+    </select>
+</form>
+<div class="items__filters">
+    {% for item in catalog.items.div %}
+   <input type="{{ item.type }}" name="{{ item.name }}" value="{{ item.value }}" id="{{ item.id }}"> 
+   <label for="{{ item.for }}">{{ item.name }}</label>
+   {% endfor %}
+    <button class="items__filters-button" type="reset">Clear all</button>
+</div>
+<ul class="items__list">
+{% for item in catalog.items.list %}
+                <li class="items__list-item"> 
+                   {% include "card.twig" %}
+                </li>
+                {% endfor %}
+</ul>
+<button class="items__button button button--primary">Load more</button>
+</section>

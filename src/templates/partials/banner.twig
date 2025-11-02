@@ -1,14 +1,17 @@
 <section class="banner">
-            <h1 class="banner__header">WITH BINABOX EXPLORE NFT COLLECTION</h1>
-            <p class="banner__text">We are the best way to check the rarity of NFT collection</p>
+     {% for item in index.banner.heading %}
+            <h1 class="banner__header">{{ item.part1 }}{{ item.part2 }}{{ item.part3 }}</h1>
+            {% endfor %}
+            <p class="banner__text">{{index.banner.text }}</p>
             <dl class="banner__counter">
-                <dt class="banner__counter-title">Total Iteam</dt>
-                <dd class="banner__counter-number">2200+</dd>
-                <dt class="banner__counter-title">Profiles whitelisted</dt>
-                <dd class="banner__counter-number">1000+</dd>
+                {% for item in index.banner.defenition %}
+                <dt class="banner__counter-title">{{ item.dt }}</dt>
+                <dd class="banner__counter-number">{{ item.dd }}</dd>
+               
+                {% endfor %}
             </dl>
             <div class="banner__link-wrap">
-                <a class="banner__link button" href="home">Connect walet</a>
-                <a class="banner__link button button--primary" href="home">Whitelist now</a>
+                <a class="banner__link button" href="{{index.banner.connect_button.link }}">{{index.banner.connect_button.text }}</a>
+                <a class="banner__link button button--primary" href="{{index.banner.whitelist_button.link }}">{{index.banner.whitelist_button.text }}</a>
             </div>
         </section>

@@ -1,0 +1,11 @@
+<section class="eyes">
+<details class="eyes__checkboxs">
+                    <summary>
+                        <h3 class="eyes__checkboxs__title" >{{ catalog.eyes.titel }}</h3>
+                    </summary>
+                    {% for eyes in catalog.eyes.list %}
+                    <input type="{{ eyes.type }}" name="{{ eyes.name }}" value="{{ eyes.value }}" id="{{ eyes.id }}"> 
+                    <label for="{{ eyes.for }}">{{ eyes.label }}</label>
+                    {% endfor %}
+                </details>
+</section> 

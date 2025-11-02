@@ -25,5 +25,84 @@
       "link":"contact.html"
     }
   ]
+  },
+"footer":{
+"branding":{
+  "titel":"About Us",
+  "link":"binabox",
+  "text":"We are the best way to check the rarity of NFT collection."
+},
+"navigation":{
+  "titel":"Navigation",
+  "list":[{
+    "text": "home",
+    "link":"home"
+  },
+   {
+     "text": "blog",
+    "link": "blog"
+   },
+   {
+     "text":"Catalog",
+    "link":"Catalog"
+   },
+   {
+     "text":"Contact Us",
+    "link": "Contact Us"
+   }
+   ,
+   {
+     "text":"Terms Conditions",
+    "link":"Terms Conditions"
+   }
+   ,
+   {
+     "text":"Privacy Policy",
+    "link":"Privacy Policy"
+   }
+   ,
+   {
+     "text":"Whitepaper",
+    "link":"Whitepaper"
+   }
+   ,
+   {
+     "text": "Help Center",
+    "link":"Help Center"
+   }
+  ]
+}
+  },
+"text":"BINABOX 2022 - ALL rights reserved",
+"networks":{
+  "titel":"Social Networks",
+"list":[
+  {
+     "icon": "twitter",
+    "link": "twitter.com" 
+  },
+  {
+     "icon": "facebook",
+    "link": "facebook.com" 
+  },
+  {
+    "icon": "telegram",
+    "link": "telegram.com" 
+  },
+  {
+     "icon": "youtube",
+    "link": "youtube.com" 
+  },
+    {
+     "icon": "tiktok",
+    "link": "tiktok.com" 
+  },
+    {
+     "icon": "discord",
+    "link": "discord.com" 
   }
+]
+}
   }
+
+  
