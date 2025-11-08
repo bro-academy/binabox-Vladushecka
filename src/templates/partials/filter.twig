@@ -1,0 +1,52 @@
+<section class="filter">
+
+	<details class="filter-clothing__checkboxes">
+		<summary>
+			<h3 class="filter-clothing__title">{{ catalog.filter.clothing.titel }}</h3>
+		</summary>
+		<div>
+			{% for cloth in catalog.filter.clothing.list %}
+				<input type="{{ cloth.type }}" name="{{ cloth.name }}" value="{{ cloth.value }}" id="{{ cloth.id }}">
+				<label for="{{ cloth.for }}">{{ cloth.name }}</label>
+			{% endfor %}
+		</div>
+	</details>
+	<details class="filter-eyes__checkboxes">
+		<summary>
+			<h3 class="filter-eyes__title">{{ catalog.filter.eyes.titel }}</h3>
+		</summary>
+		<div>
+			{% for eyes in catalog.filter.eyes.list %}
+				<input type="{{ eyes.type }}" name="{{ eyes.name }}" value="{{ eyes.value }}" id="{{ eyes.id }}">
+				<label for="{{ eyes.for }}">{{ eyes.label }}</label>
+			{% endfor %}
+		</div>
+	</details>
+
+	<details class="filter-face__checkboxes">
+		<summary>
+			<h3 class="filter-face__title">{{ catalog.filter.face.titel }}</h3>
+		</summary>
+	</details>
+	<details class="filter-skin__checkboxes">
+		<summary>
+			<h3 class="filter-skin__title">{{ catalog.filter.skin.titel }}</h3>
+		</summary>
+	</details>
+	<details class="filter-background__checkboxes">
+		<summary>
+			<h3 class="filter-background__title">{{ catalog.filter.background.titel }}</h3>
+		</summary>
+	</details>
+	<details class="filter-special__checkboxes">
+		<summary>
+			<h3 class="filter-special__title">{{ catalog.filter.special.titel }}</h3>
+		</summary>
+		<div>
+			{% for item in catalog.filter.special.list %}
+				<input type="{{ item.type }}" name="{{ item.name }}" value="{{ item.value }}" id="{{ item.id }}">
+				<label for="{{ item.for }}">{{ item.name }}</label>
+			{% endfor %}
+		</div>
+	</details>
+</section>

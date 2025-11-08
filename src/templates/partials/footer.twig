@@ -1,34 +1,34 @@
- <footer class="footer">
-        <section class="branding">
-            <h2 class="branding__title">
-                {{ footer.branding.titel }}
-            </h2>
-            <a class="branding__link" href="#">{{ footer.branding.link }}</a>
-            <p class="branding__description">{{ footer.branding.text }}</p>
-        </section>
-        <nav>
-            <section class="navigation">
-                <h3 class="navigation__title">{{ footer.navigation.titel }}</h3>
-                <ul class="navigation__list">
-                    {% for item in footer.navigation.list %}
-                    <li class="navigation__list-item">
-                        <a class="navigation__list-link" href="{{item.link}}">{{item.text}}</a>
-                        {% endfor %}
-                     </li>
-                </ul>
-            </section>
-        </nav>
-        <p class="branding__description">{{ footer.text }}</p>
-       <section class="networks">
-            <h3 class="networks__title">
-                {{ footer.networks.titel }}
-            </h3>
-            <ul class="networks__list">
-                    <li class="networks__list-item">
-                         {% for item in footer.networks.list %}
-                        <a class="networks__list-link" href="{{item.link}}">{{item.icon}}</a>
-                        {% endfor %}
-                     </li>
-            
-        </section>
-    </footer>
+<footer class="footer">
+	<section class="branding">
+		<h2 class="branding__title">
+			{{ footer.branding.titel }}
+		</h2>
+		<a class="branding__link" href="#">{{ footer.branding.link }}</a>
+		<p class="branding__description">{{ footer.branding.text }}</p>
+	</section>
+	<nav>
+		<section class="navigation">
+			<h3 class="navigation__title">{{ footer.navigation.titel }}</h3>
+			<ul class="navigation__list">
+				{% for item in footer.navigation.list %}
+					<li class="navigation__list-item">
+						<a class="navigation__list-link" href="{{item.link}}">{{item.text}}</a>
+					{% endfor %}
+				</li>
+			</ul>
+		</section>
+	</nav>
+	<p class="branding__description">{{ footer.text }}</p>
+	<section class="networks">
+		<h3 class="networks__title">
+			{{ footer.networks.titel }}
+		</h3>
+		<ul class="networks__list">
+            {% for item in footer.networks.list %}
+			<li class="networks__list-item">
+					<a class="networks__list-link" href="{{item.link}}"><img src="{{item.src}}" alt=""></a>
+				{% endfor %}
+			</li>
+
+		</section>
+	</footer>

@@ -1,110 +1,110 @@
 {
     "url": "contact.twig",
     "contact": {
-   "banner":{
-"titel":"Contact Us",
- "list":[
-    {
-        "text":"Home",
-        "link":"index.html"
-    },
-     {
-        "text":"Contact us",
-        "link":"contact.twig"
-    }
- ]
-    },
-    "touch":{
-        "list":[
-            {
-       "img":"url",
-       "scr":"i.png",
-       "alt":"location",
-      "titel":"Location",
-      "text":"2163 Phillips Gap Rd"
-            },
-            {
-       "img":"url",
-       "scr":"i.png",
-       "alt":"email",
-      "titel":"Email",
-      "text":"Info.avitex@gmail.com"
-            },
-            {
-       "img":"url",
-       "scr":"i.png",
-       "alt":"phone",
-      "titel":"Phone",
-      "text":"+1 666 8888"
-            }
-        ],
-      "titel":"Get in touch",
-      "text":"Browse through the most frequently asked questions",
-      "form":[
-        {
-                       "type":"text",
-                        "value":"Enter your name",
-                        "id":"name",
-                        "for":"name",
-                        "label":"Name"
+        "banner": {
+            "titel": "Contact Us",
+            "list": [
+                {
+                    "text": "Home",
+                    "link": "index.html"
+                },
+                {
+                    "text": "Contact us",
+                    "link": "contact.html"
+                }
+            ]
         },
-           {
-                       "type":"text",
-                        "value":"Enter your last name",
-                        "id":"last",
-                        "for":"last",
-                        "label":"Last name"
-        },
-           {
-                       "type":"date",
-                        "id":"birth",
-                        "for":"birth",
-                        "label":"Date of birth"
-        },
-            {
-                        "text":"Sex"
-        },
-        {
-                       "type":"radio",
-                       "name":"sex",
-                        "value":"male",
-                        "id":"male",
-                        "for":"male",
-                        "label":"Male"
-        },
-         {
-                       "type":"radio",
-                       "name":"sex",
-                        "value":"female",
-                        "id":"female",
-                        "for":"female",
-                        "label":"Female"
-        },
-        {
-                       "type":"email",
-                       "name":"email",
-                        "value":"Enter your email",
-                        "id":"email",
-                        "for":"email",
-                        "label":"Email"
-        },
-        {
-                       "type":"phone",
-                       "name":"phone",
-                        "value":"Enter your phone",
-                        "id":"phone",
-                        "for":"phone",
-                        "label":"Phone"
-        },
-         {
-                       "type":"massage",
-                       "name":"massage",
-                        "value":"Text your massage hear",
-                        "id":"massage",
-                        "for":"massage",
-                        "label":"Massage"
+        "touch": {
+            "list": [
+                {
+                    "img": "location.png",
+                    "scr": "/src/assets/images/location.png",
+                    "alt": "location",
+                    "titel": "Location",
+                    "text": "2163 Phillips Gap Rd"
+                },
+                {
+                    "img": "letter.png",
+                    "scr": "/src/assets/images/letter.png",
+                    "alt": "email",
+                    "titel": "Email",
+                    "text": "Info.avitex@gmail.com"
+                },
+                {
+                    "img": "phone.png",
+                    "scr": "/src/assets/images/phone.png",
+                    "alt": "phone",
+                    "titel": "Phone",
+                    "text": "+1 666 8888"
+                }
+            ],
+            "titel": "Get in touch",
+            "text": "Browse through the most frequently asked questions",
+            "form": [
+                {
+                    "type": "text",
+                    "value": "Enter your name",
+                    "id": "name",
+                    "for": "name",
+                    "label": "Name"
+                },
+                {
+                    "type": "text",
+                    "value": "Enter your last name",
+                    "id": "last",
+                    "for": "last",
+                    "label": "Last name"
+                },
+                {
+                    "type": "date",
+                    "id": "birth",
+                    "for": "birth",
+                    "label": "Date of birth"
+                },
+                {
+                    "text": "Sex"
+                },
+                {
+                    "type": "radio",
+                    "name": "sex",
+                    "value": "male",
+                    "id": "male",
+                    "for": "male",
+                    "label": "Male"
+                },
+                {
+                    "type": "radio",
+                    "name": "sex",
+                    "value": "female",
+                    "id": "female",
+                    "for": "female",
+                    "label": "Female"
+                },
+                {
+                    "type": "email",
+                    "name": "email",
+                    "value": "Enter your email",
+                    "id": "email",
+                    "for": "email",
+                    "label": "Email"
+                },
+                {
+                    "type": "phone",
+                    "name": "phone",
+                    "value": "Enter your phone",
+                    "id": "phone",
+                    "for": "phone",
+                    "label": "Phone"
+                },
+                {
+                    "type": "massage",
+                    "name": "massage",
+                    "value": "Text your massage hear",
+                    "id": "massage",
+                    "for": "massage",
+                    "label": "Massage"
+                }
+            ]
         }
-      ]
     }
-}
 }

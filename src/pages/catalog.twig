@@ -1,12 +1,7 @@
 {% extends 'src/templates/layouts/base.twig' %}
 
 {% block content %}
-{% include "src/templates/partials/catalog.twig" %}
-{% include "src/templates/partials/clothing.twig" %}
-{% include "src/templates/partials/eyes.twig" %}
-{% include "src/templates/partials/face.twig" %}
-{% include "src/templates/partials/skin.twig" %}
-{% include "src/templates/partials/background.twig" %}
-{% include "src/templates/partials/special.twig" %}
-{% include "src/templates/partials/items.twig" %}
+	{% include "src/templates/partials/catalog.twig" %}
+	{% include "src/templates/partials/filter.twig" %}
+	{% include "src/templates/partials/items.twig" %}
 {% endblock %}

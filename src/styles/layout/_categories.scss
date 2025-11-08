@@ -1,5 +1,8 @@
-.categories{
-&__list-link{
+.categories {
+  width: 328px;
+  height: 384px;
+  background-color: #1D1C28;
+  &__list-link {
     font-family: 'Poppins';
     font-weight: 600;
     font-style: normal;
@@ -7,13 +10,14 @@
     line-height: 20px;
     color: #f5f8fb;
     text-decoration: none;
-}
-&__title{
-  font-family: 'Bakbak One'; 
-  font-weight: 400; 
-  font-style: normal;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: 0;
-}
+  }
+
+  &__title {
+    font-family: 'Bakbak One';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+  }
 }

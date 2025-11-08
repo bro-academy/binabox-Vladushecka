@@ -1,17 +1,17 @@
 <section class="banner">
-     {% for item in index.banner.heading %}
-            <h1 class="banner__header">{{ item.part1 }}{{ item.part2 }}{{ item.part3 }}</h1>
-            {% endfor %}
-            <p class="banner__text">{{index.banner.text }}</p>
-            <dl class="banner__counter">
-                {% for item in index.banner.defenition %}
-                <dt class="banner__counter-title">{{ item.dt }}</dt>
-                <dd class="banner__counter-number">{{ item.dd }}</dd>
-               
-                {% endfor %}
-            </dl>
-            <div class="banner__link-wrap">
-                <a class="banner__link button" href="{{index.banner.connect_button.link }}">{{index.banner.connect_button.text }}</a>
-                <a class="banner__link button button--primary" href="{{index.banner.whitelist_button.link }}">{{index.banner.whitelist_button.text }}</a>
-            </div>
-        </section>
+	{% for item in index.banner.heading %}
+		<h1 class="banner__header">{{ item.part1 }}{{ item.part2 }}{{ item.part3 }}</h1>
+	{% endfor %}
+	<p class="banner__text">{{index.banner.text }}</p>
+	<dl class="banner__counter">
+		{% for item in index.banner.defenition %}
+			<dt class="banner__counter-title">{{ item.dt }}</dt>
+			<dd class="banner__counter-number">{{ item.dd }}</dd>
+
+		{% endfor %}
+	</dl>
+	<div class="banner__link-wrap">
+		<a class="banner__link button" href="{{index.banner.connect_button.link }}">{{index.banner.connect_button.text }}</a>
+		<a class="banner__link button button--primary" href="{{index.banner.whitelist_button.link }}">{{index.banner.whitelist_button.text }}</a>
+	</div>
+</section>

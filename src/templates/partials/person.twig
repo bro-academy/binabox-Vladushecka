@@ -1,13 +1,12 @@
 <article class="person">
-                <img class="person__avatar" src="k.png" alt="Nova Riven">
-                <h3 class="person__name">{{ person.title }}</h3>
-                <p class="person__position">{{ person.text }}</p>
-                <ul class="person__sotiale-list sotiale-list">
-                    <li class="sotiale-list__item">
-                        {% for person in index.team.list.links %}
-                        <a class="sotiale-list__link" href="{{ person.link }}">{{ person.icon }}
-                             {% endfor %}
-                        </a>
-                    </li>
-                </ul>
-            </article>
+	<img class="person__avatar" src="{{ person.src }}" alt="{{ person.alt }}">
+	<h3 class="person__name">{{ person.title }}</h3>
+	<p class="person__position">{{ person.text }}</p>
+	<ul class="person__sotiale-list sotiale-list">
+		<li class="sotiale-list__item">
+			{% for links in index.team.list.links %}
+				<a class="sotiale-list__link" href="{{ links.link }}">{{ links.icon }}</a>
+				{% endfor %}
+		</li>
+	</ul>
+</article>

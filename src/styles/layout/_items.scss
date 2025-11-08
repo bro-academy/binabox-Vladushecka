@@ -1,10 +1,13 @@
-.items{
-       &__titel{
-    font-family: 'Bakbak One';
-    font-style: normal;
-    font-weight:400;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -0.5px; 
-       } 
+.items {
+   &__titel {
+      font-family: 'Bakbak One';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 48px;
+      letter-spacing: -0.5px;
+   }
+   &__filters{
+         background-color: #1D1C28;
+   }
 }

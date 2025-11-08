@@ -1,16 +1,17 @@
-.about{
- &__title {
-    font-family: 'Bakbak One';
-    font-style: normal;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-} 
-&__description {
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-style: normal;
-    font-size: 20px;
-    line-height: 28px;
-}  
+.about {
+    &__title {
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+    }
+
+    &__description {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 28px;
+    }
 }

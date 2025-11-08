@@ -1,13 +1,10 @@
-        <article class="post">
-            <figure class="post__figure">
-                <img class="post__img" src="e.png" alt="Close-up of a Gen-3 Basilisk. Eyes trained by code">
-                <figcaption class="post-text">{{ blog.media.figcaption }}</figcaption>
-            </figure>
-            <figure class="post__figure">
-                <img class="post__img" src="u.png" alt="A bonded Basilisk with its summoner. Loyalty is minted- not earned.">
-                <figcaption class="post-text">{{ blog.media.figcaption }}</figcaption>
-            </figure>
-            <h3 class="post__title">{{ blog.media.titel }}</h3>
-            <p class="post__text">{{ blog.media.text }}</p>
-        </article>
-       
+<article class="post">
+    {% for item in blog.media.figure %}
+	<figure class="post__figure">
+		<img class="post__img" src="{{ item.src }}" alt="{{ item.alt }}">
+		<figcaption class="post-text">{{ item.figcaption }}</figcaption>
+	</figure>
+    {% endfor %}
+	<h3 class="post__title">{{ blog.media.titel }}</h3>
+	<p class="post__text">{{ blog.media.text }}</p>
+</article>

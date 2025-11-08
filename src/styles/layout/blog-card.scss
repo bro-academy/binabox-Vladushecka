@@ -1,45 +1,56 @@
-.blog-card{
-    &__label{
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0px;
-    color: #0265dc;
-    background-color:#f5f8fb;
-}
-&__time {
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 20px;
-    color: #f5f8fb;
-}
-&__autor {
-    font-family: 'Bakbak One';
-    font-style: normal;
-    font-size: 36px;
-    line-height: 48px;
-    letter-spacing: -0.5px;
-}
-&__description {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-}
-&__button {
-     font-family: 'Poppins';
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    vertical-align: middle;
-    color: #f5f8fb;
-    border: 2px #d0d7fb ;
-    text-decoration: none;
-}
-}
+.blog-card {
+    width: 784px;
+    height: 434px;
+    background-color: #1D1C28;
+    &__label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        color: #0265dc;
+        background-color: #f5f8fb;
+    }
 
+    &__time {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #f5f8fb;
+    }
 
+    &__autor {
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+    }
 
+    &__description {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    &__button {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 24px;
+        vertical-align: middle;
+        color: #f5f8fb;
+        border: 2px #d0d7fb;
+        text-decoration: none;
+    }
+
+    &__img {
+        width: 736px;
+        height: 198px;
+
+        
+    }
+}

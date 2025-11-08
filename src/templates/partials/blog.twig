@@ -1,10 +1,10 @@
 <section class="blog">
-            <h1 class="blog__title">{{ blog.heading.titel }}</h1>
-            <ul class="blog__list">
-                {% for item in blog.heading.list %}
-                <li class="blog__list-item">
-                    <a class="blog__list-link" href="{{ item.link }}">{{ item.text }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-        </section>
+	<h1 class="blog__title">{{ blog.heading.titel }}</h1>
+	<ul class="blog__list">
+		{% for item in blog.heading.list %}
+			<li class="blog__list-item">
+				<a class="blog__list-link" href="{{ item.link }}">{{ item.text }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

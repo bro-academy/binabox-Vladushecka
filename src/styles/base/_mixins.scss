@@ -1,20 +1,23 @@
 @use'../base/variables.scss' as *;
 
-@mixin mobile{
+@mixin mobile {
     @media (min-width: $mobile ) {
         @content;
     }
 }
+
 @mixin tablet {
     @media (min-width: $tablet ) {
         @content;
     }
 }
+
 @mixin desktop {
     @media (min-width: $desktop ) {
         @content;
     }
 }
+
 @mixin desktop-large {
     @media (min-width: $desktop-large ) {
         @content;

@@ -1,357 +1,374 @@
 {
-"url": "index.html",
- "index":{
-  "banner":{
-    "heading":{
-"part_1":"WITH",
-"part_2":"BINABOX",
-"part_3":"EXPLORE NFT COLLECTION"
-    },
-    "text":"We are the best way to check the rarity of NFT collection",
-    "defenition":[
-      {
-        "dt":"Total Iteam",
-        "dd":"2200+"
+  "url": "index.html",
+  "index": {
+    "banner": {
+      "heading": {
+        "part_1": "WITH",
+        "part_2": "BINABOX",
+        "part_3": "EXPLORE NFT COLLECTION"
       },
-       {
-        "dt":"Profiles whitelisted",
-        "dd":"1000+"
-      }
-    ],
-
-    "connect_button":{
-      "text":"Connect walet",
-      "link":"connect"
-    },
-
-    "whitelist_button":{
-      "text":"Whitelist now",
-      "link":"whitelist"
-    }
-  },
- "catalog":{
-  "title":"Catalog",
-  "button":"See all",
-  "list":[
-    {
-      "img":"url",
-       "scr":"m.png",
-       "alt":"Echo of Bones",
-      "name":"Echo of Bones",
-      "price":"$1990",
-      "label":"New"
-    },
-      {
-      "img":"url",
-       "scr":"n.png",
-       "alt":"Nyx the Watcher",
-      "name":"Nyx the Watcher",
-      "price":"$299.99",
-      "label":"New"
-    },
-      {
-      "img":"url",
-       "scr":"b.png",
-       "alt":"Blade of Silence",
-      "name":"Blade of Silence",
-      "price":"$20",
-      "label":"Sold out"
-    },
-      {
-      "img":"url",
-       "scr":"d.png",
-       "alt":"Data Core: Alpha",
-      "name":"Data Core: Alpha",
-      "price":"$1.000.000"
-    },
-      {
-      "img":"url",
-       "scr":"p.png",
-       "alt":"Phantom Console",
-      "name":"Phantom Console",
-      "price":"$199.5"
-    }
-  ]
- },
- "blog":{
-  "title":"Our blog",
-  "list":[
-    {
-      "label":"NFT",
-    "img":"url",
-    "scr":"nn.png",
-    "alt":"nft",
-    "time":"04. Dec 2022",
-    "datetime":"2022-12-04",
-    "title":"Neural Drift",
-    "text":"I woke up inside the void. My body stayed in the past - only thoughtswere allowed throug..",
-    "link":"Read more",
-    "href":""
-    },
-    {
-      "label":"RARE",
-    "img":"url",
-    "scr":"pp.png",
-    "alt":"rare",
-    "time":"08. Dec 2022",
-    "datetime":"2022-12-08",
-    "title":"Primal.exe",
-    "text":"We tried to resurrect the past. What we got was rage compressed into an algorithm.",
-    "link":"Read more",
-    "href":"#"
-    },
-    {
-      "label":"NFT",
-    "img":"url",
-    "scr":"ww.png",
-    "alt":"nft",
-    "time":"20. Jun 2022",
-    "datetime":"2022-06-20",
-    "title":"White Protocol",
-    "text":"At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.",
-    "link":"Read more",
-    "href":"#"
-    },
-    {
-      "label":"DROP",
-    "img":"url",
-    "scr":"dd.png",
-    "alt":"drop",
-    "time":"06. Dec 2022",
-    "datetime":"2022-12-06",
-    "title":"Deadframe",
-    "text":"He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku",
-    "link":"Read more",
-    "href":"#"
-    },
-    {
-      "label":"NFT",
-    "img":"url",
-    "scr":"gg.png",
-    "alt":"nft",
-    "time":"07. Dec 2022",
-    "datetime":"2022-12-07",
-    "title":"Glitch Panther",
-    "text":"Cats always knew more than they showed. Especially the ones that vanish into code.",
-    "link":"Read more",
-    "href":"#"
-    },
-    {
-      "label":"ARTIFACT",
-    "img":"url",
-    "scr":"rr.png",
-    "alt":"artifact",
-    "time":"09. Dec 2022",
-    "datetime":"2022-12-09",
-    "title":"Retrocore",
-    "text":"This console comes from a game no one remembers how to play. But it's still powered on.",
-    "link":"Read more",
-    "href":"#"
-    }
-  ]
- },
- "about":{
-  "title":"About us",
-  "text":"We craft digital artifacts for those who live between worlds. Our space is bulit for creators, collectors, and the quietly obsessed.",
-  "list":[
-    { "title":"Crystal clear Quality",
-     "text":"Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean."
-    },
-    {"title":"Curated Depth",
-     "text":"Not just big - meaningful. Each piece tells a story, every collection builds a universe."
-    },
-    {"title":"Rare Source Access",
-     "text":"Early drops. Backstage peeks. Our members don't scroll - they unlock."
-    },
-    {
-     "title":"Living Network",
-     "text":"Our community isn't a list -it's a force. Artists, rebels, dreamers."
-    }
-  ]
- },
- "team":{
-"title":"Our team",
-"list":[
-  {
-    "img":"url",
-    "title":"Nova Riven",
-    "text":"Creative Architect",
-    "links": [
-  {
-     "icon": "facebook",
-    "link": "facebook.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  },
-  {
-     "icon": "instagram",
-    "link": "instagram.com" 
-  }
-]
-  },
-   {
-    "img":"url",
-    "title":"Echo Zero",
-    "text":"Tech Whisperer",
-     "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  },
-  {
-     "icon": "instagram",
-    "link": "instagram.com" 
-  }
-]
-  },
-   {
-    "img":"url",
-    "title":"Kairo Null",
-    "text":"Lore Engineer",
-      "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  },
-  {
-     "icon": "facebook",
-    "link": "facebook.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  }
-]
-  },
-   {
-    "img":"url",
-    "title":"Dr. Wex Omega",
-    "text":"Visual Disruptor",
-    "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  },
-  {
-     "icon": "facebook",
-    "link": "facebook.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  },
-    {
-     "icon": "instagram",
-    "link": "instagram.com" 
-  }
-]
-  },
-   {
-    "img":"url",
-    "title":"Synthya Void",
-    "text":"UX Seer",
-      "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  }
-]
-  },
-   {
-    "img":"url",
-    "title":"Mirlo Drift",
-    "text":"Community Catalyst",
-      "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  },
-  {
-     "icon": "facebook",
-    "link": "facebook.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  },
-    {
-     "icon": "instagram",
-    "link": "instagram.com" 
-  }
-]
+      "text": "We are the best way to check the rarity of NFT collection",
+      "defenition": [
+        {
+          "dt": "Total Iteam",
+          "dd": "2200+"
         },
-   {
-    "img":"url",
-    "title":"Axon Rune",
-    "text":"Security Ghost",
-       "links": [
-  {
-     "icon": "twitter",
-    "link": "twitter.com" 
-  },
-  {
-     "icon": "facebook",
-    "link": "facebook.com" 
-  },
-  {
-    "icon": "telegram",
-    "link": "telegram.com" 
-  },
-  {
-     "icon": "in",
-    "link": "in.com" 
-  },
-    {
-     "icon": "instagram",
-    "link": "instagram.com" 
-  }
-]
+        {
+          "dt": "Profiles whitelisted",
+          "dd": "1000+"
         }
-]
- },
- "faq":{
-  "titel":"FAQs",
-  "list":[
-  {
-    "title":"What are the NFTs?",
-    "text":"NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art,music, code, memes, memories - anything that can be owned and vertfied.No coples. No takes, Just you and the chain."
-  },
-  {
-    "title":"How do i get NFTs?"
-  },
-  {
-    "title":"How can we buy your NFTS?"
-  },
-  {
-    "title":"Who are the team behind the project?"
+      ],
+      "connect_button": {
+        "text": "Connect walet",
+        "link": "connect"
+      },
+      "whitelist_button": {
+        "text": "Whitelist now",
+        "link": "whitelist"
+      }
+    },
+    "catalog": {
+      "title": "Catalog",
+      "button": "See all",
+      "list": [
+        {
+          "img": "skeleton.jpg",
+          "src": "/src/assets/images/skeleton.jpg",
+          "alt": "skeleton",
+          "name": "Echo of Bones",
+          "price": "$1990",
+          "label": "New"
+        },
+        {
+          "img": "cat.jpg",
+          "src": "/src/assets/images/cat.jpg",
+          "alt": "Nyx the Watcher",
+          "name": "Nyx the Watcher",
+          "price": "$299.99",
+          "label": "New"
+        },
+        {
+          "img": "scissors.jpg",
+          "src": "/src/assets/images/scissors.jpg",
+          "alt": "Blade of Silence",
+          "name": "Blade of Silence",
+          "price": "$20",
+          "label": "Sold out"
+        },
+        {
+          "img": "card.jpg",
+          "src": "/src/assets/images/card.jpg",
+          "alt": "Data Core: Alpha",
+          "name": "Data Core: Alpha",
+          "price": "$1.000.000"
+        },
+        {
+          "img": "console.jpg",
+          "src": "/src/assets/images/console.jpg",
+          "alt": "Phantom Console",
+          "name": "Phantom Console",
+          "price": "$199.5"
+        }
+      ]
+    },
+    "blog": {
+      "title": "Our blog",
+      "list": [
+        {
+          "label": "NFT",
+          "img": "face.jpg",
+          "src": "/src/assets/images/face.jpg",
+          "alt": "face",
+          "time": "04. Dec 2022",
+          "datetime": "2022-12-04",
+          "title": "Neural Drift",
+          "text": "I woke up inside the void. My body stayed in the past - only thoughtswere allowed throug..",
+          "link": "Read more",
+          "href": ""
+        },
+        {
+          "label": "RARE",
+          "img": "gorilla.jpg",
+          "src": "/src/assets/images/gorilla.jpg",
+          "alt": "rare",
+          "time": "08. Dec 2022",
+          "datetime": "2022-12-08",
+          "title": "Primal.exe",
+          "text": "We tried to resurrect the past. What we got was rage compressed into an algorithm.",
+          "link": "Read more",
+          "href": "#"
+        },
+        {
+          "label": "NFT",
+          "img": "duck.jpg",
+          "src": "/src/assets/images/duck.jpg",
+          "alt": "nft",
+          "time": "20. Jun 2022",
+          "datetime": "2022-06-20",
+          "title": "White Protocol",
+          "text": "At first, it was just a signal - clean, white, hypnotic. We didn't know it was alive.",
+          "link": "Read more",
+          "href": "#"
+        },
+        {
+          "label": "DROP",
+          "img": "scull.jpg",
+          "src": "/src/assets/images/scull.jpg",
+          "alt": "drop",
+          "time": "06. Dec 2022",
+          "datetime": "2022-12-06",
+          "title": "Deadframe",
+          "text": "He just stood there, waiting. Not for a person - for a signal. Like the memory of the networku",
+          "link": "Read more",
+          "href": "#"
+        },
+        {
+          "label": "NFT",
+          "img": "cat-eyes.jpg",
+          "src": "/src/assets/images/cat-eyes.jpg",
+          "alt": "nft",
+          "time": "07. Dec 2022",
+          "datetime": "2022-12-07",
+          "title": "Glitch Panther",
+          "text": "Cats always knew more than they showed. Especially the ones that vanish into code.",
+          "link": "Read more",
+          "href": "#"
+        },
+        {
+          "label": "ARTIFACT",
+          "img": "retrocore.jpg",
+          "src": "/src/assets/images/retrocore.jpg",
+          "alt": "artifact",
+          "time": "09. Dec 2022",
+          "datetime": "2022-12-09",
+          "title": "Retrocore",
+          "text": "This console comes from a game no one remembers how to play. But it's still powered on.",
+          "link": "Read more",
+          "href": "#"
+        }
+      ],
+      "link":"Read more",
+      "text":"Read more"
+    },
+    "about": {
+      "title": "About us",
+      "text": "We craft digital artifacts for those who live between worlds. Our space is bulit for creators, collectors, and the quietly obsessed.",
+      "list": [
+        {
+          "title": "Crystal clear Quality",
+          "text": "Every NFT we drop is razor-sharp, high-res, and glitch-free. Art that hits hard and stays clean."
+        },
+        {
+          "title": "Curated Depth",
+          "text": "Not just big - meaningful. Each piece tells a story, every collection builds a universe."
+        },
+        {
+          "title": "Rare Source Access",
+          "text": "Early drops. Backstage peeks. Our members don't scroll - they unlock."
+        },
+        {
+          "title": "Living Network",
+          "text": "Our community isn't a list -it's a force. Artists, rebels, dreamers."
+        }
+      ]
+    },
+    "team": {
+      "title": "Our team",
+      "list": [
+        {
+          "img": "riven.jpg",
+          "src": "/src/assets/images/riven.jpg",
+          "alt": "riven",
+          "title": "Nova Riven",
+          "text": "Creative Architect",
+          "links": [
+            {
+              "icon": "facebook",
+              "link": "facebook.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            },
+            {
+              "icon": "instagram",
+              "link": "instagram.com"
+            }
+          ]
+        },
+        {
+          "img": "zero.jpg",
+          "src": "/src/assets/images/zero.jpg",
+          "alt": "zero",
+          "title": "Echo Zero",
+          "text": "Tech Whisperer",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            },
+            {
+              "icon": "instagram",
+              "link": "instagram.com"
+            }
+          ]
+        },
+        {
+          "img": "null.jpg",
+          "src": "/src/assets/images/null.jpg",
+          "alt": "null",
+          "title": "Kairo Null",
+          "text": "Lore Engineer",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            },
+            {
+              "icon": "facebook",
+              "link": "facebook.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            }
+          ]
+        },
+        {
+          "img": "omega.jpg",
+          "src": "/src/assets/images/omega.jpg",
+          "alt": "omega",
+          "title": "Dr. Wex Omega",
+          "text": "Visual Disruptor",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            },
+            {
+              "icon": "facebook",
+              "link": "facebook.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            },
+            {
+              "icon": "instagram",
+              "link": "instagram.com"
+            }
+          ]
+        },
+        {
+          "img": "void.jpg",
+          "src": "/src/assets/images/void.jpg",
+          "alt": "void",
+          "title": "Synthya Void",
+          "text": "UX Seer",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            }
+          ]
+        },
+        {
+          "img": "drift.jpg",
+          "src": "/src/assets/images/drift.jpg",
+          "alt": "drift",
+          "title": "Mirlo Drift",
+          "text": "Community Catalyst",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            },
+            {
+              "icon": "facebook",
+              "link": "facebook.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            },
+            {
+              "icon": "instagram",
+              "link": "instagram.com"
+            }
+          ]
+        },
+        {
+          "img": "rune.jpg",
+          "src": "/src/assets/images/rune.jpg",
+          "alt": "rune",
+          "title": "Axon Rune",
+          "text": "Security Ghost",
+          "links": [
+            {
+              "icon": "twitter",
+              "link": "twitter.com"
+            },
+            {
+              "icon": "facebook",
+              "link": "facebook.com"
+            },
+            {
+              "icon": "telegram",
+              "link": "telegram.com"
+            },
+            {
+              "icon": "in",
+              "link": "in.com"
+            },
+            {
+              "icon": "instagram",
+              "link": "instagram.com"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "titel": "FAQs",
+      "list": [
+        {
+          "title": "What are the NFTs?",
+          "text": "NFTs (non-fungible tokens) are unique digital objects stored on the blockchain. They can be art,music, code, memes, memories - anything that can be owned and vertfied.No coples. No takes, Just you and the chain."
+        },
+        {
+          "title": "How do i get NFTs?"
+        },
+        {
+          "title": "How can we buy your NFTS?"
+        },
+        {
+          "title": "Who are the team behind the project?"
+        }
+      ]
+    }
   }
-  ]
- }
 }
- }
