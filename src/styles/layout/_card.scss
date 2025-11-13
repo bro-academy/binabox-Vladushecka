@@ -1,7 +1,10 @@
 .card {
     width: 300.8px;
     height: 480px;
+    padding: 24px;
+    margin: 25px;
     background-color: #1D1C28;
+
     &__link {
         text-decoration: none;
     }
@@ -37,5 +40,6 @@
         width: 252x;
         height: 324px;
         object-fit: cover;
+        margin: auto 24px;
     }
 }

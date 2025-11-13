@@ -1,7 +1,10 @@
 .categories {
   width: 328px;
   height: 384px;
+  padding: 24px;
+  margin: 16px;
   background-color: #1D1C28;
+
   &__list-link {
     font-family: 'Poppins';
     font-weight: 600;

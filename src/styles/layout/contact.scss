@@ -1,9 +1,11 @@
 .contact {
   width: 1728px;
   height: 375.24px;
+  padding: 64px;
   background-image: url(/src/assets/images/lines.png);
-  background-size: 1289.28px, 1289.28px ;
+  background-size: 1289.28px, 1289.28px;
   background-repeat: no-repeat;
+
   &__titel {
     font-family: 'Bakbak One';
     font-weight: 400;

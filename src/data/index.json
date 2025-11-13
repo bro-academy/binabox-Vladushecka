@@ -8,6 +8,9 @@
         "part_3": "EXPLORE NFT COLLECTION"
       },
       "text": "We are the best way to check the rarity of NFT collection",
+      "img": "cube.png",
+      "src": "/src/assets/images/cube.png",
+      "alt": "cube",
       "defenition": [
         {
           "dt": "Total Iteam",
@@ -147,8 +150,8 @@
           "href": "#"
         }
       ],
-      "link":"Read more",
-      "text":"Read more"
+      "link": "Read more",
+      "text": "Read more"
     },
     "about": {
       "title": "About us",

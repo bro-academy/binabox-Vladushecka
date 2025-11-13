@@ -1,6 +1,7 @@
 @use'../base/global';
 @use'../base/mixins';
 @use'../base/variables';
+@use'../base/wraps.scss';
 
 @use'../layout/banner';
 @use'../layout/catalog-section';
@@ -23,6 +24,7 @@
 @use'../layout/item-card';
 @use'../layout/items';
 @use'../layout/filter';
+@use'../layout/header';
 
 @use'../components/button';
 @use'../components/nav';

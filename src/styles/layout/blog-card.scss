@@ -1,7 +1,10 @@
 .blog-card {
     width: 784px;
     height: 434px;
+    margin: 32px;
+
     background-color: #1D1C28;
+
     &__label {
         font-weight: 600;
         font-size: 14px;
@@ -12,6 +15,7 @@
     }
 
     &__time {
+
         font-family: 'Poppins';
         font-weight: 600;
         font-style: normal;
@@ -23,6 +27,7 @@
     &__autor {
         font-family: 'Bakbak One';
         font-style: normal;
+        font-weight: 400;
         font-size: 36px;
         line-height: 48px;
         letter-spacing: -0.5px;
@@ -50,7 +55,6 @@
     &__img {
         width: 736px;
         height: 198px;
-
-        
+        margin: 0px 24px 0px 24px;
     }
 }

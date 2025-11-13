@@ -1,4 +1,8 @@
 .post {
+    padding: 64px;
+    margin: 32px;
+    position: relative;
+
     &__text {
         font-family: 'Poppins';
         font-weight: 500;
@@ -103,19 +107,22 @@
         letter-spacing: 0px;
     }
 }
-.post__person-icon{
+
+.post__person-icon {
     fill: #FFFFFF;
     width: 12.48px;
     height: 13.333px;
-top: 1.33px;
-left: 1.76px;
+    top: 1.33px;
+    left: 1.76px;
 }
-.post__calendar-icon{
+
+.post__calendar-icon {
     top: 0.67px;
     left: 1.33px;
-    fill: #E7F1FD7D ;
+    fill: #E7F1FD7D;
 }
-.post__stars-icon{
+
+.post__stars-icon {
     fill: #E7F1FD7D;
     top: 0.67px;
     left: 0.67px;

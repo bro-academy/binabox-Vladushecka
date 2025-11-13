@@ -1,9 +1,14 @@
 .counted-list {
-&__item{
-    width: 376px;
-    height: 234.32px;
-    background-color: #1D1C28;
-}
+
+    &__item {
+        width: 376px;
+        height: 234.32px;
+        margin: 32px;
+        padding: 32px;
+
+        background-color: #1D1C28;
+    }
+
     &__titel {
         font-family: 'Bakbak One';
         font-style: normal;

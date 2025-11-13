@@ -67,35 +67,35 @@
         }
       ]
     },
-     "text": "BINABOX 2022 - ALL rights reserved",
-  "networks": {
-    "titel": "Social Networks",
-    "list": [
-      {
-        "src":"/src/assets/images/twitter.png",
-        "link": "twitter.com"
-      },
-      {
-        "src":"/src/assets/images/facebook.png",
-        "link": "facebook.com"
-      },
-      {
-        "src":"/src/assets/images/telegram.png",
-        "link": "telegram.com"
-      },
-      {
-        "src":"/src/assets/images/youtube.png",
-        "link": "youtube.com"
-      },
-      {
-        "src":"/src/assets/images/ticktok.png",
-        "link": "ticktok.com"
-      },
-      {
-        "src":"/src/assets/images/discord.png",
-        "link": "discord.com"
-      }
-    ]
-  }
+    "text": "BINABOX 2022 - ALL rights reserved",
+    "networks": {
+      "titel": "Social Networks",
+      "list": [
+        {
+          "src": "/src/assets/images/twitter.png",
+          "link": "twitter.com"
+        },
+        {
+          "src": "/src/assets/images/facebook.png",
+          "link": "facebook.com"
+        },
+        {
+          "src": "/src/assets/images/telegram.png",
+          "link": "telegram.com"
+        },
+        {
+          "src": "/src/assets/images/youtube.png",
+          "link": "youtube.com"
+        },
+        {
+          "src": "/src/assets/images/ticktok.png",
+          "link": "ticktok.com"
+        },
+        {
+          "src": "/src/assets/images/discord.png",
+          "link": "discord.com"
+        }
+      ]
+    }
   }
 }

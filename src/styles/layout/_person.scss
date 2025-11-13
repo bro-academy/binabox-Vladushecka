@@ -1,7 +1,9 @@
 .person {
     width: 293.33px;
     height: 316px;
+    margin: 16px;
     background-color: #1D1C28;
+
     &__name {
         font-family: 'Bakbak One';
         font-style: normal;
@@ -16,14 +18,15 @@
         line-height: 28px;
         letter-spacing: 0px;
     }
-&__avatar{
-width: 173;
-height: 173;
-top: -14px;
-left: -22px;
-rotate: -180 deg;
-opacity: 1;
+
+    &__avatar {
+        width: 173;
+        height: 173;
+        top: -14px;
+        left: -22px;
+        rotate: -180 deg;
+        opacity: 1;
 
 
-}
+    }
 }

@@ -24,8 +24,8 @@
 			{{ footer.networks.titel }}
 		</h3>
 		<ul class="networks__list">
-            {% for item in footer.networks.list %}
-			<li class="networks__list-item">
+			{% for item in footer.networks.list %}
+				<li class="networks__list-item">
 					<a class="networks__list-link" href="{{item.link}}"><img src="{{item.src}}" alt=""></a>
 				{% endfor %}
 			</li>

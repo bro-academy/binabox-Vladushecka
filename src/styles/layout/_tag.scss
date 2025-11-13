@@ -1,6 +1,11 @@
 .tag {
   width: 328px;
   height: 184px;
+  padding: 24px;
+  margin: 16px;
+  position: absolute;
+  top: 68px;
+  left: -50px;
   background-color: #1D1C28;
 
   &__list-link {
@@ -17,8 +22,8 @@
     font-family: 'Bakbak One';
     font-weight: 400;
     font-style: normal;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 32px;
     letter-spacing: 0;
   }
 }

@@ -58,40 +58,40 @@
                 }
             ]
         },
-        "tag": {
-            "titel": "Tag",
-            "list": [
-                {
-                    "text": "NFT",
-                    "link": "nft"
-                },
-                {
-                    "text": "ICO",
-                    "link": "ico"
-                },
-                {
-                    "text": "Robot",
-                    "link": "robot"
-                },
-                {
-                    "text": "Crypto",
-                    "link": "crypto"
-                },
-                {
-                    "text": "Launchpad",
-                    "link": "launchpad"
-                },
-                {
-                    "text": "Metaverse",
-                    "link": "metaverse"
-                }
-            ]
-        },
         "post": {
+            "tag": {
+                "titel": "Tag",
+                "list": [
+                    {
+                        "text": "NFT",
+                        "link": "nft"
+                    },
+                    {
+                        "text": "ICO",
+                        "link": "ico"
+                    },
+                    {
+                        "text": "Robot",
+                        "link": "robot"
+                    },
+                    {
+                        "text": "Crypto",
+                        "link": "crypto"
+                    },
+                    {
+                        "text": "Launchpad",
+                        "link": "launchpad"
+                    },
+                    {
+                        "text": "Metaverse",
+                        "link": "metaverse"
+                    }
+                ]
+            },
             "figure": {
                 "img": "dragon.jpg",
                 "src": "/src/assets/images/dragon.jpg",
-          "alt": "dragon",
+                "alt": "dragon",
                 "figcaption": "A Basilisk enters the arena - its emerald scales shimmer with encoded rage."
             },
             "titel": "The Basilisks NFT",
