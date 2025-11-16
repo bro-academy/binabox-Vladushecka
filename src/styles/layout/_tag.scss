@@ -3,9 +3,10 @@
   height: 184px;
   padding: 24px;
   margin: 16px;
-  position: absolute;
-  top: 68px;
-  left: -50px;
+  position: absolute; 
+  top: 460px;
+  left: -150px;
+  display: flex;
   background-color: #1D1C28;
 
   &__list-link {
@@ -16,6 +17,8 @@
     line-height: 20px;
     color: #f5f8fb;
     text-decoration: none;
+    display: flex;
+    flex-direction: row;
   }
 
   &__title {

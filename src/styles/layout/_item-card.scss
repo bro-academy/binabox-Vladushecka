@@ -1,4 +1,14 @@
 .item-card {
+    width: 328px;
+    height: 232px;
+    min-width: 288px;
+    max-width: 328px;
+    padding: 40px, 32px;
+    gap: 24px;
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px #D4D9F242;
     &__titel {
         font-family: 'Bakbak One';
         font-style: normal;

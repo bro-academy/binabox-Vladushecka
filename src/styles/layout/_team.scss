@@ -1,7 +1,11 @@
 .team {
     padding: 64px;
     margin: 40px;
-
+&__list{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
     &__title {
         font-family: 'Bakbak One';
         font-style: normal;

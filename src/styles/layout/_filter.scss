@@ -1,8 +1,9 @@
 .filter {
   margin: 21px;
   padding: 21px;
-  position: static;
-
+  position: absolute;
+  top:50px;
+left: -40px;
   &-clothing {
     &__title {
       font-family: 'Bakbak One';

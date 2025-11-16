@@ -1,4 +1,7 @@
 .items {
+   position: relative;
+   flex-direction: column;
+    flex-wrap: wrap;
    &__titel {
       font-family: 'Bakbak One';
       font-style: normal;
@@ -6,9 +9,30 @@
       font-size: 36px;
       line-height: 48px;
       letter-spacing: -0.5px;
+      display: flex;
+      justify-content: center;
    }
 
    &__filters {
       background-color: #1D1C28;
+      padding: 16px;
+      margin: 16px;
+      position: relative;
+      left:30%
    }
+   &__list{
+      padding: 24px;
+      margin: 24px;
+position: relative;
+left: 20%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+   }
+
+&__form{
+   position: relative;
+   left: 60%;
+}
+
 }

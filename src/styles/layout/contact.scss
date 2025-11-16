@@ -5,7 +5,9 @@
   background-image: url(/src/assets/images/lines.png);
   background-size: 1289.28px, 1289.28px;
   background-repeat: no-repeat;
-
+    display: flex;
+    flex-direction: column;
+align-items: center;
   &__titel {
     font-family: 'Bakbak One';
     font-weight: 400;

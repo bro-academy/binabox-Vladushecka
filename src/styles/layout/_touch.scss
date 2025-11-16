@@ -1,7 +1,10 @@
 .touch {
     padding: 64px;
     margin: 16px;
-
+position: relative;
+ display: flex;
+    flex-direction: column;
+    align-items: center;
     &__titel {
         font-family: 'Bakbak One';
         font-style: normal;
@@ -19,4 +22,5 @@
         line-height: 28px;
 
     }
+
 }

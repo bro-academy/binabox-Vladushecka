@@ -5,8 +5,8 @@
     max-width: 1728px;
     max-height: 640px;
     padding: 164px;
-
-
+    display: flex;
+    flex-direction: row;
     background-image:
         radial-gradient(32.5% 38.5% at 10.28% -4.22%, rgba(2, 101, 220, 0.5) 0%, rgba(2, 101, 220, 0) 90%);
     ;

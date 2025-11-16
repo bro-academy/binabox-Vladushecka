@@ -1,5 +1,10 @@
 <article class="post">
-	{% for item in blog.post.tag %}
+	{% for item in blog.post.categories %}
+		<article class="categories">
+			{% include "categories.twig" %}
+		</article>
+	{% endfor %}
+    	{% for item in blog.post.tag %}
 		<article class="tag">
 			{% include "tag.twig" %}
 		</article>

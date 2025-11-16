@@ -1,11 +1,10 @@
-<section class="categories">
-	<h2 class="categories__title">{{ blog.categories.titel }}</h2>
+
+	<h2 class="categories__title">{{ blog.post.categories.titel }}</h2>
 	<ul class="categories__list">
-		{% for item in blog.categories.list %}
+		{% for item in blog.post.categories.list %}
 			<li class="categories__list-item">
 				<a class="categories__list-link" href="{{ item.link }}">{{ item.text }}
 					{{ item.number }}</a>
 			</li>
 		{% endfor %}
 	</ul>
-</section>
