@@ -1,0 +1,16 @@
+.team {
+    padding: 64px;
+    margin: 40px;
+&__list{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+    &__title {
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+    }
+}

@@ -1,0 +1,45 @@
+<article class="post">
+	{% for item in blog.post.categories %}
+		<article class="categories">
+			{% include "categories.twig" %}
+		</article>
+	{% endfor %}
+    	{% for item in blog.post.tag %}
+		<article class="tag">
+			{% include "tag.twig" %}
+		</article>
+	{% endfor %}
+	<figure class="post__figure">
+		<img class="post__img " src="{{ blog.post.figure.src }}" alt="{{ blog.post.figure.alt }}">
+		<figcaption class="post-text">{{ blog.post.figcaption }}</figcaption>
+	</figure>
+	<h2 class="post__title">{{ blog.post.titel }}</h2>
+	<button class="post__button button ">{{ blog.post.button }}</button>
+	<div class="post__meta-line">
+		{% from 'ui/icon.twig' import icon %}
+		<span class="post__author">{{ icon('post__person-icon', 'person', 18.71, 20) }}{{blog.post.details.name }}
+		</span>
+		|
+		<time class="post__time" datetime="2022-06-20">{{ icon('post__calendar-icon', 'calendar', 13.33, 14.67) }}{{ blog.post.details.time }}</time>
+	</div>
+	<p class="post__text">{{ blog.post.text }}</p>
+	<ul class="post__list">
+		{% for item in blog.post.list %}
+			<li class="post__list-item">
+				<p class="post__list-text">{{ item.text }}</p>
+			</li>
+		{% endfor %}
+		{% for item in blog.post.items %}
+			<li class="post__list-item">
+				<p class="post__list-text">{{ item.item }}</p>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<blockquote class="post__quote">
+		<p class="post__quote-text">{{blog.post.blockquote.text }}</p>
+		{% from 'ui/icon.twig' import icon %}
+		<cite class="post__quote-author">{{ icon('post__stars-icon', 'stars', 14.67, 14.67) }}{{ blog.post.blockquote.author }}</cite>
+	</blockquote>
+
+</article>

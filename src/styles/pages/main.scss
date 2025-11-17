@@ -1,0 +1,41 @@
+@use'../base/global';
+@use'../base/mixins';
+@use'../base/variables';
+@use'../base/wraps.scss';
+
+@use'../layout/banner';
+@use'../layout/catalog-section';
+@use'../layout/card';
+@use'../layout/blog-section';
+@use'../layout/blog-card.scss';
+@use'../layout/about';
+@use'../layout/counted-list';
+@use'../layout/team';
+@use'../layout/person';
+@use'../layout/faq';
+@use'../layout/faq-info';
+@use'../layout/blog.scss';
+@use'../layout/categories';
+@use'../layout/tag';
+@use'../layout/post';
+@use'../layout/catalog';
+@use'../layout/contact';
+@use'../layout/touch';
+@use'../layout/item-card';
+@use'../layout/items';
+@use'../layout/filter';
+@use'../layout/header';
+
+@use'../components/button';
+@use'../components/nav';
+@use'../components/navigation';
+@use'../components/branding';
+@use'../components/networks';
+
+
+footer {
+  background-color: #333333;
+  color: var(--white-color);
+  padding: 1rem 0;
+  text-align: center;
+}

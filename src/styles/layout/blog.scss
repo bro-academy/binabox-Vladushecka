@@ -1,0 +1,31 @@
+.blog {
+  width: 1728px;
+  height: 375.24px;
+  padding: 64px;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+  background-image: url(/src/assets/images/lines.png);
+  background-size: 1289.28px, 1289.28px;
+  background-repeat: no-repeat;
+ 
+  
+  &__list-link {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f5f8fb;
+    text-decoration: none;
+  }
+
+  &__title {
+    font-family: 'Bakbak One';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 52px;
+    line-height: 62px;
+    letter-spacing: -0, 5;
+  }
+}

@@ -1,0 +1,25 @@
+<section class="blog-section">
+	<h2 class="blog-section__titel">{{ index.blog.title }}</h2>
+	<ul class="blog-section__list">
+		{% for card in index.blog.list %}
+			<li class="blog-section__list-item blog-card">
+				<article class="blog-card">
+					<span class="blog-card__label">{{ card.label }}</span>
+					<img class="blog-card__img" src="{{ card.src }}" alt="{{ card.alt }}">
+					<div class="details-wrap">
+						<time class="blog-card__time" datetime="{{ card.datetime }}">{{ card.time }}</time>
+						<div class="details__text-wrap">
+							<h3 class="blog-card__autor">{{ card.title }}</h3>
+							<p class="blog-card__description">{{ card.text }}</p>
+						</div>
+						{% from 'ui/icon.twig' import icon %}
+						<a class="blog-card__button button button--primary " href="{{ card.href }}">{{ card.link }}{{icon('blog_right-icon', 'right', 8, 14) }}</a>
+					</div>
+
+				</article>
+			</li>
+		{% endfor %}
+
+	</ul>
+	<a class="button button--large" href="{{ index.blog.link }}">{{ index.blog.text }}</a>
+</section>

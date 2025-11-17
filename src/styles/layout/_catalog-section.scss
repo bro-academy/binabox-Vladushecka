@@ -1,0 +1,37 @@
+.catalog-section {
+    padding: 64px;
+    margin: 40px;
+flex-direction: row;
+    &__titel {
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #f5f8fb;
+        border: 2px #d0d7fb;
+    }
+
+    &__button {
+        width: 48px;
+        height: 48px;
+    }
+    &__list{
+      display: flex;
+  flex-direction: row;  
+  gap: 40px;
+}
+}
+
+.catalog-icon {
+    fill: #f5f8fb;
+    top: 2px;
+    left: 1px;
+
+}

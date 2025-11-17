@@ -1,0 +1,8 @@
+<h2 class="tag__title">Tag</h2>
+<ul class="tag__list">
+	{% for item in blog.post.tag.list %}
+		<li class="tag__list-item">
+			<a class="tag__list-link" href="{{ item.link }}">{{ item.text }}</a>
+		</li>
+	{% endfor %}
+</ul>

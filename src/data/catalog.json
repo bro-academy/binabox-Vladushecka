@@ -1,0 +1,281 @@
+{
+        "url": "catalog.twig",
+        "catalog": {
+                "banner": {
+                        "titel": "Explore catalog",
+                        "list": [
+                                {
+                                        "text": "Home",
+                                        "link": "index.html"
+                                },
+                                {
+                                        "text": "Catalog",
+                                        "link": "catalog.html"
+                                }
+                        ]
+                },
+                "filter": {
+                        "clothing": {
+                                "titel": "Clothing",
+                                "list": [
+                                        {
+                                                "type": "checkbox",
+                                                "name": "clothing",
+                                                "value": "combatant",
+                                                "id": "combatant",
+                                                "for": "combatant",
+                                                "label": "Combatant"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "ninja",
+                                                "value": "ninja",
+                                                "id": "ninja",
+                                                "for": "ninja",
+                                                "label": "Ninja"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "king",
+                                                "value": "king",
+                                                "id": "king",
+                                                "for": "king",
+                                                "label": "King"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "qeen",
+                                                "value": "qeen",
+                                                "id": "qeen",
+                                                "for": "qeen",
+                                                "label": "Qeen"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "robot",
+                                                "value": "robot",
+                                                "id": "robot",
+                                                "for": "robot",
+                                                "label": "Robot"
+                                        }
+                                ]
+                        },
+                        "eyes": {
+                                "titel": "Eyes",
+                                "list": [
+                                        {
+                                                "type": "radio",
+                                                "name": "eyes",
+                                                "value": "yellow",
+                                                "id": "yellow",
+                                                "for": "yellow",
+                                                "label": "Yellow"
+                                        },
+                                        {
+                                                "type": "radio",
+                                                "name": "eyes",
+                                                "value": "green",
+                                                "id": "green",
+                                                "for": "green",
+                                                "label": "Green"
+                                        },
+                                        {
+                                                "type": "radio",
+                                                "name": "eyes",
+                                                "value": "mix",
+                                                "id": "mix",
+                                                "for": "mix",
+                                                "label": "Mix"
+                                        },
+                                        {
+                                                "type": "radio",
+                                                "name": "eyes",
+                                                "value": "orange",
+                                                "id": "orange",
+                                                "for": "orange",
+                                                "label": "Orange"
+                                        }
+                                ]
+                        },
+                        "face": {
+                                "titel": "Face"
+                        },
+                        "skin": {
+                                "titel": "Skin"
+                        },
+                        "background": {
+                                "titel": "Background"
+                        },
+                        "special": {
+                                "titel": "Special",
+                                "list": [
+                                        {
+                                                "type": "checkbox",
+                                                "name": "yellow",
+                                                "value": "yellow",
+                                                "id": "yellow",
+                                                "for": "yellow",
+                                                "label": "Yellow"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "green",
+                                                "value": "green",
+                                                "id": "green",
+                                                "for": "green",
+                                                "label": "Green"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "mix",
+                                                "value": "mix",
+                                                "id": "mix",
+                                                "for": "mix",
+                                                "label": "Mix"
+                                        },
+                                        {
+                                                "type": "checkbox",
+                                                "name": "orange",
+                                                "value": "orange",
+                                                "id": "orange",
+                                                "for": "orange",
+                                                "label": "Orange"
+                                        }
+                                ]
+                        }
+                },
+                "items": {
+                        "titel": "All item",
+                        "input": {
+                                "type": "search",
+                                "value": "search",
+                                "name": "search NFT"
+                        },
+                        "select": {
+                                "name": "select",
+                                "id": "select",
+                                "option": [
+                                        {
+                                                "name": "sort by:"
+                                        },
+                                        {
+                                                "value": "newest",
+                                                "name": "Newest"
+                                        },
+                                        {
+                                                "value": "popular",
+                                                "name": "Most popular"
+                                        },
+                                        {
+                                                "value": "increasing",
+                                                "name": "Increasing in price"
+                                        },
+                                        {
+                                                "value": "lowering",
+                                                "name": "Lowering the price"
+                                        }
+                                ]
+                        },
+                        "div": [
+                                {
+                                        "type": "checkbox",
+                                        "name": "NFT",
+                                        "value": "nft",
+                                        "id": "nft",
+                                        "for": "nft",
+                                        "label": "NFT"
+                                },
+                                {
+                                        "type": "checkbox",
+                                        "name": "ICO",
+                                        "value": "ico",
+                                        "id": "ico",
+                                        "for": "ico",
+                                        "label": "ICO"
+                                },
+                                {
+                                        "type": "checkbox",
+                                        "name": "Crypto",
+                                        "value": "crypto",
+                                        "id": "crypto",
+                                        "for": "crypto",
+                                        "label": "Crypto"
+                                }
+                        ],
+                        "list": [
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "Popolar"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "Sold out"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                },
+                                {
+                                        "img": "person.jpg",
+                                        "src": "/src/assets/images/person.jpg",
+                                        "alt": "persont",
+                                        "name": "Name Product",
+                                        "price": "$199",
+                                        "label": "New"
+                                }
+                        ]
+                }
+        }
+}

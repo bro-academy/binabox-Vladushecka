@@ -1,0 +1,10 @@
+<section class="catalog">
+	<h2 class="catalog__titel">{{ catalog.banner.titel }}</h1>
+	<ul class="catalog__list">
+		{% for item in catalog.banner.list %}
+			<li class="catalog__list-item">
+				<a class="catalog__list-link" href="{{ item.link }}">{{ item.text }}</a>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

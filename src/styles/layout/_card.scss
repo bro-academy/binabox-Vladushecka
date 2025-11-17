@@ -1,0 +1,45 @@
+.card {
+    width: 300.8px;
+    height: 480px;
+    padding: 24px;
+    margin: 25px;
+    background-color: #1D1C28;
+    
+    &__link {
+        text-decoration: none;
+    }
+
+    &__price {
+        font-family: 'Bakbak One';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 48px;
+        letter-spacing: -0.5px;
+        color: #f5f8fb;
+    }
+
+    &__label {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0px;
+        color: #0265dc;
+        background-color: #f5f8fb;
+    }
+
+    &__header {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #f5f8fb;
+    }
+
+    &__img {
+        width: 252x;
+        height: 324px;
+        object-fit: cover;
+        margin: auto 24px;
+    }
+}

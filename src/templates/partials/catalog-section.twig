@@ -1,0 +1,16 @@
+<section class="catalog-section">
+	{% from 'ui/icon.twig' import icon %}
+	<h2 class="catalog-section__titel">{{ icon('catalog-icon', 'catalog', 22, 20) }}{{ index.catalog.title }}</h2>
+	<a href="#" class="catalog-section__link button">{{ index.catalog.button }}</a>
+	{% from 'ui/icon.twig' import icon %}
+	<button class="catalog-section__button button button--primary button--icon">{{ icon('left-icon', 'left', 8, 14) }}</button>
+	<button class="catalog-section__button button button--icon">{{icon('right-icon', 'right', 8, 14) }}</button>
+	<ul class="catalog-section__list catalog-list">
+		{% for item in index.catalog.list %}
+			<li class="catalog-list__item">
+				{% include "card.twig" %}
+			</li>
+		{% endfor %}
+	</ul>
+
+</section>

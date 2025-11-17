@@ -1,0 +1,29 @@
+.nav {
+  list-style: none; 
+display: flex;
+flex-direction: row;
+  &__list-item{
+    width: 121px;
+    height: 40px;
+   padding-inline: 20px;
+   display: flex;
+   flex-direction: row;
+   
+  }
+  &__list-link {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f5f8fb;
+    text-decoration: none;
+    display: flex;
+justify-content: center;
+flex-wrap: wrap;
+    &--active {
+      text-decoration: underline;
+    }
+  }
+
+
+}

@@ -1,0 +1,32 @@
+{% from 'ui/icon.twig' import icon %}
+<header class="header">
+	<a href="index.html" class="logo logo--header">
+		{{ icon('logo__image-text', 'vector', 134, 21) }}
+	</a>
+	<a class="logo" href="#">Binabox</a>
+	<nav class="nav">
+		<ul class="nav__list list-item">
+			{% for item in header.nav %}
+				<li class="nav__list-item">
+					{% from 'ui/icon.twig' import icon %}
+					<a class="nav__list-link
+												                    {% if item.link == url %}
+												                     nav__list-link--active
+												                     {% endif %}
+												                    " href="{{ item.link }}">{{ icon('down-icon', 'down', 10, 10) }}{{ item.text }}</a>
+				</li>
+			{% endfor %}
+
+		</ul>
+	</nav>
+	<div>
+		<form class="search__form" action="Search">
+			<input class="search" type="search" value="Search" name="Search">
+			{% from 'ui/icon.twig' import icon %}
+			<button class="search__button button button--primary button--icon" type="submit">{{ icon('search-icon', 'search', 20, 20) }}</button>
+		</form>
+		{% from 'ui/icon.twig' import icon %}
+		<a class=" button button--primary button--large" href="{{header.primary_button.link}}">{{ icon('discord-icon', 'discord', 22, 16) }}{{header.primary_button.text}}</a>
+		<a class="button button--large">{{ icon('person-icon', 'person', 18.71, 20) }}{{header.default_button}}</a>
+	</div>
+</header>

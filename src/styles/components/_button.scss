@@ -1,0 +1,110 @@
+.button {
+    width: 134px;
+    height: 48px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #f5f8fb;
+    border: 2px #d0d7fb;
+    background-color: #0265DC;
+
+    &:hover {
+        background-color: #3892F3;
+    }
+
+    &:focus {
+        border: 4px #3892F3;
+    }
+
+    &:active {
+        background-color: #0054B6;
+    }
+
+    &--primary {
+        border: 2px #d0d7fb;
+        border-color: #d0d7fb 17%;
+        border-radius: 2px #d0d7fb;
+        background-color: transparent;
+        text-decoration: none;
+
+        &:hover {
+            background-color: #BFC5EE1F;
+            border-color: #BFC5EE1F;
+        }
+
+        &:focus {
+            background-color: #BFC5EE1F;
+            border-color: #3892F3;
+        }
+
+        &:active {
+            background-color: #BFC5EE1F 12%;
+            border-color: #BFC5EE1F 12%;
+        }
+    }
+
+    &--large {
+        width: 141px;
+        height: 48px;
+
+
+    }
+
+    &--large-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    &--icon {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.discord-icon {
+    fill: #F5F8FB;
+    opacity: 1;
+    left: 1px;
+    right: 4px;
+}
+
+.person-icon {
+    fill: #F5F8FB;
+    opacity: 1;
+    left: 3px;
+    top: 2px;
+}
+
+.left-icon {
+    fill: #F5F8FB;
+    opacity: 1;
+    left: 8px;
+    top: 5px;
+
+}
+
+.right-icon {
+    fill: #0D0D15;
+    opacity: 1;
+    left: 8px;
+    top: 5px;
+
+}
+
+.blog_right-icon {
+    fill: #F5F8FB;
+    opacity: 1;
+    left: 8px;
+    top: 5px;
+}
+
+.down-icon {
+    fill: #F5F8FB;
+}
+
+.search-icon {
+    fill: #F5F8FB;
+    top: 2px;
+    left: 2px;
+}
